@@ -1,19 +1,26 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`CURSO` Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+`DISCIPLINA` Projeto: Desenvolvimento de um Sistema Sociotécnico Inovador
 
-`SEMESTRE`
+`SEMESTRE` Eixo 5
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Criação e implementação de um site de vendas de salgados para a empresa, visando modernizar e otimizar o atual modelo de negócio que se baseia exclusivamente na venda via WhatsApp.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+José Vicente do Vale Melo 
+
+Karen Franco Alavarque Escobedo 
+
+Luiz Carlos Gil de Souza 
+
+Pedro Vitor Rodrigues da Silva 
+
+Renato Liberato Ferreira 
+
+Ursula Daniela Figueiredo Barbosa
 
 ## Orientador
 
