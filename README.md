@@ -24,7 +24,7 @@ Ursula Daniela Figueiredo Barbosa
 
 ## Orientador
 
-* Nome completo do professor 1
+* José Wilson da Costa
 
 ## Instruções de utilização
 
