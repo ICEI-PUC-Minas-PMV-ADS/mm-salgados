@@ -36,4 +36,49 @@ Relacionar a situação-problema da organização com o impacto social esperado 
 
 ## Descrição do Parceiro
 
-Apresente uma descrição resumida sobre a organização onde o projeto será desenvolvido para que possa ser compreendido o cenário sistema sociotécnico.
+### Análise da situação atual
+
+Análise do Modelo de Negócio Atual (Venda Apenas via WhatsApp) para o desenvolvimento do site de vendas de salgados: 
+
+1. Limitações de Escala e Alcance 
+
+    O modelo atual de vendas via WhatsApp pode estar limitando a capacidade da empresa de alcançar um número maior de clientes devido à natureza manual e limitada da comunicação individual. 
+
+    A capacidade de atendimento pode estar restrita pelo número de pedidos que uma equipe pode gerenciar manualmente. 
+
+2. Experiência do Cliente 
+
+    O processo de compra pode ser menos conveniente para os clientes, pois pode exigir mais tempo e esforço para fazer um pedido via WhatsApp, especialmente se houver atrasos nas respostas ou dificuldades de comunicação. 
+
+    Pode haver falta de transparência nas informações do produto e nos preços, já que tudo é discutido individualmente e pode variar de cliente para cliente. 
+
+3. Gestão de Pedidos e Rastreamento 
+
+    A falta de uma plataforma centralizada para gerenciar pedidos pode levar a uma menor eficiência operacional, com potencial para erros de comunicação e dificuldades no rastreamento de pedidos. 
+
+4. Potencial de Crescimento Limitado 
+
+    O modelo atual pode estar limitando o potencial de crescimento da empresa, pois não está capitalizando totalmente as oportunidades oferecidas por uma presença online mais robusta. 
+
+5. Dificuldades de Marketing e Promoção 
+
+    Pode ser mais desafiador para a empresa realizar atividades de marketing e promoções eficazes, como a divulgação de novos produtos ou promoções especiais, quando depende exclusivamente do WhatsApp para interagir com os clientes. 
+
+6. Competitividade 
+
+    Em um mercado cada vez mais digitalizado, a falta de presença online pode tornar a empresa menos competitiva em relação a concorrentes que oferecem opções de compra mais convenientes e acessíveis. 
+
+Em resumo, o modelo atual de vendas exclusivamente via WhatsApp apresenta várias limitações que podem estar impactando negativamente o desempenho e o crescimento da empresa. O desenvolvimento de um site de vendas de salgados pode ser uma estratégia importante para superar essas limitações, proporcionando uma experiência de compra mais conveniente e eficiente para os clientes, além de aumentar a eficiência operacional e o alcance de mercado da empresa. 
+
+### Descrição Geral da Proposta 
+
+A proposta consiste na criação e implementação de um site de vendas de salgados para a empresa, visando modernizar e otimizar o atual modelo de negócio que se baseia exclusivamente na venda via WhatsApp. O objetivo principal é proporcionar uma experiência de compra mais conveniente, eficiente e acessível para os clientes, ao mesmo tempo em que se busca aumentar a eficiência operacional, expandir o alcance de mercado e impulsionar o crescimento do negócio. 
+
+O site de vendas de salgados será desenvolvido como uma plataforma online centralizada, onde os clientes poderão navegar por um catálogo completo de produtos, visualizar descrições detalhadas, imagens atrativas e preços atualizados.  
+
+Por fim, para garantir uma experiência de usuário excepcional, o site será projetado com uma interface intuitiva e fácil de usar, com navegação clara, elementos de design atrativos e compatibilidade com uma variedade de dispositivos e navegadores da web. 
+
+### Processo
+![M M_Salgados - Processo manual](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/assets/101661631/99023906-0dfd-4d2b-b3a0-1b271a574ccf)
+
+![MM_Salgados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/assets/101661631/03e41876-c3d8-49a8-8139-8d1a7d0c613d)
