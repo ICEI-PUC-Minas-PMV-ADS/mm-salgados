@@ -26,6 +26,10 @@ Um site de vendas oferece uma série de benefícios tanto para os proprietários
 
 Portanto, o desenvolvimento deste projeto representa não apenas uma modernização do processo, mas também uma estratégia essencial para otimizar a comercialização dos produtos. Ao considerar questões atuais, como o crescente uso de serviços online, e ao oferecer benefícios tangíveis para os negócios no ramo alimentício, bem como para a satisfação e fidelidade dos clientes. 
 
+## Público-alvo
+
+O público-alvo deste projeto destina-se a empreendedores do setor alimentício que desejam ou têm interesse no desenvolvimento de sites para a comercialização de seus produtos. 
+
 ## Relação com a Extensão Universitária
 
 Relacionar a situação-problema da organização com o impacto social esperado com a implantação do sistema sociotécnico.
