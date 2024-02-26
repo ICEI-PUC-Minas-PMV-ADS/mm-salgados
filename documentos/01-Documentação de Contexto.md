@@ -32,7 +32,15 @@ O público-alvo deste projeto destina-se a empreendedores do setor alimentício 
 
 ## Relação com a Extensão Universitária
 
-Relacionar a situação-problema da organização com o impacto social esperado com a implantação do sistema sociotécnico.
+A loja de salgados enfrenta desafios na divulgação eficaz de seus produtos, uma vez que atualmente não possui um catálogo online disponível para os clientes consultarem.
+
+Com a implementação de um sistema sociotécnico para criar um catálogo online dos produtos da loja de salgados, espera-se um impacto positivo na acessibilidade e na conveniência para os clientes, bem como na promoção da transparência e da confiança na comunidade.
+
+A plataforma permitirá que os clientes visualizem facilmente os produtos disponíveis, seus preços, descrições e imagens associadas. Isso proporcionará uma experiência de compra mais conveniente e informativa para os clientes, permitindo que eles façam escolhas mais informadas e precisas sobre os produtos que desejam encomendar.
+
+Além disso, a disponibilidade de um site pode ampliar o alcance da loja de salgados, possibilitando que pessoas que não estão fisicamente próximas à loja possam explorar os produtos oferecidos e fazer encomendas remotamente. Isso pode contribuir para a expansão dos negócios da loja e para o aumento da visibilidade da marca na comunidade.
+
+Portanto, ao resolver o problema de divulgação dos produtos e ao oferecer uma plataforma online acessível e informativa, o sistema sociotécnico pode melhorar significativamente a experiência dos clientes e promover um maior engajamento e interação com a comunidade e demais regiões.
 
 ## Descrição do Parceiro
 
