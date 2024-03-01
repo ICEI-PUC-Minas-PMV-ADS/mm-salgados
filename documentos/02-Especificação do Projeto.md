@@ -60,7 +60,7 @@ Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
 
 A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
 
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart]([documentos/img/WhatsApp Image 2024-03-01 at 16.12.07.jpeg](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/assets/101661631/857fc84f-2c8a-4aa5-9157-939e64711855))
+> - ![Como fazer um diagrama entidade relacionamento | Lucidchart](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/WhatsApp%20Image%202024-03-01%20at%2016.12.07.jpeg)
 
 ## Projeto da Base de Dados
 
