@@ -73,4 +73,4 @@ Para esse fim, construímos o gráfico de Gantt conforme disposto na figura 3. E
 
 > - ![Como fazer um diagrama entidade relacionamento | Lucidchart](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/WhatsApp%20Image%202024-02-29%20at%2018.15.17.jpeg)
 
-> - ![Como fazer um diagrama entidade relacionamento | Lucidchart](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/WhatsApp%20Image%202024-02-29%20at%2018.15.17(1).jpeg)
+> - ![Como fazer um diagrama entidade relacionamento | Lucidchart](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/WhatsApp%20Image%202024-02-29%20at%2018.15.17%20(1).jpeg)
