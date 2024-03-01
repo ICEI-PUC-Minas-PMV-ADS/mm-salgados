@@ -71,6 +71,6 @@ Trazendo para nosso contexto, o gráfico de Gantt é uma representação gráfic
 Para esse fim, construímos o gráfico de Gantt conforme disposto na figura 3. Ele contém uma lista de tarefas ou atividades na vertical e um eixo horizontal que representa o tempo. As barras horizontais representam a duração de cada atividade e a posição das barras no eixo do tempo indica quando cada atividade deve começar e terminar.
 
 
-<img src="/docs/img/graficoGant1.png">
+> - ![Cronograma | Lucidchart](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/WhatsApp%20Image%202024-03-01%20at%2016.12.07.jpeg)
 
-<img src="/docs/img/graficoGant2.png">
+> - ![Como fazer um diagrama entidade relacionamento | Lucidchart](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/WhatsApp%20Image%202024-03-01%20at%2016.12.07.jpeg)
