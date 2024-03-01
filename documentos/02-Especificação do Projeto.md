@@ -56,11 +56,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
-
-A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - ![Como fazer um diagrama entidade relacionamento | Lucidchart](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/WhatsApp%20Image%202024-03-01%20at%2016.12.07.jpeg)
+> - ![Como fazer um diagrama entidade relacionamento | Lucidchart](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/WhatsApp%20Image%202024-03-01%20at%2016.12.07.jpeg
 
 ## Projeto da Base de Dados
 
