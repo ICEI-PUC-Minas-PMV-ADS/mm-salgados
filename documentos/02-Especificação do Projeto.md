@@ -7,8 +7,40 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Arquitetura e Tecnologias
+Para este projeto iremos criar uma aplicação que se estrutura da seguinte forma:
 
-o	Descreva brevemente a arquitetura definida para o projeto e as tecnologias a serem utilizadas. Sugere-se a criação de um diagrama de componentes da solução.
+![Arquitetura da solução](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/Arquitetura.jpg)
+
+
+Serão utilizados no desenvolvimento:
+
+Linguagens de progamação:
+
+- C#: Linguagem de progamação utilizada para desenvolvimento do backend da solução.
+- Javascript: Linguagem de progamação utilizada no frontend para a implementação de certas funcionalidades.
+
+Frameworks:
+
+- ASP.NET Core MVC: Framework implementando o padrão Model-View-Controller, será utilizado como base para desenvolvimento da solução.
+- Entity Framework Core: Framework de mapeamento objeto-relacional (técnica utilizada para resolver o problema da impedância entre o modelo orientado a objetos e o modelo relacional) para a plataforma .NET, será utilizado para facilitar a manipulação e consulta do banco de dados relacional utilizado aplicação.
+
+APIs:
+
+- ASP.NET Core Identity: API que dá suporte a funcionalidade de login da interface do usuário. Será utilizado para implementar a função de login e autenticação do usuário, além da separação das contas por tipos de usuários.
+
+IDE:
+
+- Visual Studio Community 2022, escolhido pela integração com o Framework ASP.NET e outras ferramentas utilizadas no projeto como o SQL Server.
+
+Sistema gerenciador de banco de dados:
+
+- SQL Server, escolhido por sua boa integração com o editor de código e para facilitar a migração do banco de dados para o serviço de hospedagem nas fases mais avançadas do projeto.
+
+Outras tecnologias:
+
+HTML: Linguagem de marcação utilizada para a construção das páginas web.
+CSS: Linguagem de folhas de estilos utilizada para aplicar estilos nos elementos HTML.
+Razor: Sintaxe de marcação que permite inserir código baseado em .NET em páginas web junto ao HTML.
 
 ## Project Model Canvas
 
@@ -65,7 +97,7 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
 ## Projeto da Base de Dados
 
-O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/Esquema.jpg)
 
 ## Gerenciamento de Tempo
 
