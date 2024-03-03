@@ -118,4 +118,3 @@ O processo de determinar o orçamento do projeto é uma tarefa que depende, alé
 
 > - ![Como fazer um diagrama entidade relacionamento | Lucidchart](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/Or%C3%A7amento_MM_Salgados.jpeg)
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/Or%C3%A7amento_MM_Salgados.jpeg
