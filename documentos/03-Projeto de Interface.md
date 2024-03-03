@@ -7,7 +7,7 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 ![fluxo_cliente](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/assets/100872927/00273748-483c-4267-9a67-80547f8b0d65)
 
 **Fluxo de interação do administrador com o sistema:**
-![fluxo_administrador](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/assets/100872927/683cd066-d56b-4d7f-b96a-c8df761f6150)
+![fluxo_administrador](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/assets/100872927/29d84a98-ed04-4c99-884b-a3944d8dc6e2)
 
 ## Wireframes
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
