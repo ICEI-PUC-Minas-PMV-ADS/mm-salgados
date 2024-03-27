@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets",
+      "connectionId": "VaultUri"
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "VaultUri",
+      "dynamicId": null
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:DataContextConnection",
+      "dynamicId": null
+    },
+    "storage1": {
+      "type": "storage",
+      "connectionId": "ofertafoneblobstorage",
+      "dynamicId": null
+    }
+  }
+}

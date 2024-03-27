@@ -1,0 +1,40 @@
+﻿<aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+    <div class="app-brand demo">
+        <a asp-controller="vitrine" asp-action="index" class="app-brand-link">
+            <span class="app-brand-logo demo">
+                <i class='bx bxs-book-content' style="FONT-SIZE: 28px;color: var(--font-menu) !important;"></i>
+            </span>
+            <span class="app-brand-text demo menu-text fw-bolder ms-2" style="text-align:center;text-transform:uppercase">MM Salgados</span>
+        </a>
+        <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+            <i class="bx bx-chevron-left bx-sm align-middle"></i>
+        </a>
+    </div>
+    <div class="menu-inner-shadow"></div>
+    <ul class="menu-inner py-1">
+        <li class="menu-item">
+            <a asp-controller="home" asp-action="index" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                <div>Home</div>
+            </a>
+        </li>
+        <li class="menu-item">
+            <a asp-controller="account" asp-action="editprofile" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-user-pin"></i>
+                <div>Perfil</div>
+            </a>
+        </li>
+        <li class="menu-item">
+            <a asp-controller="produto" asp-action="index" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-devices"></i>
+                <div>Produto</div>
+            </a>
+        </li>
+        <li class="menu-item">
+            <a asp-controller="pedido" asp-action="index" class="menu-link">
+                <i class='menu-icon tf-icons bx bx-package'></i>
+                <div>Meus Pedidos</div>
+            </a>
+        </li>
+    </ul>
+</aside>

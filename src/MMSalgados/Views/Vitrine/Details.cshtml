@@ -1,0 +1,176 @@
+﻿@using MMSalgados.Utils.Extensions
+@model MMSalgados.WebUI.ViewModels.Vitrine.DetailsViewModel
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = TipoLayout.LAYOUT_VITRINE;
+}
+
+<style>
+    .container-detail {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .information {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .img-produto {
+        width: auto;
+        margin: auto;
+    }
+
+    .descricao {
+        display: flex;
+        flex-direction: column;
+        padding: 28px 40px;
+        width: auto;
+    }
+
+    .product-prices {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #d7d7d7;
+        border-radius: 5px;
+        padding: 15px 30px;
+        align-items: center;
+    }
+
+    .price {
+        margin-bottom: 25px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .frete {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .btn-comprar {
+        margin-top: 76px;
+    }
+
+    .cep {
+        margin-right: 12px;
+    }
+
+    .rating-stars {
+        display: inline-block;
+        vertical-align: middle;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        white-space: nowrap;
+        clear: both;
+    }
+
+    .rating-stars i {
+        font-size: 14px;
+        color: #ccc;
+        display: inline;
+    }
+
+    .rating-stars li {
+        display: block;
+        text-overflow: clip;
+        white-space: nowrap;
+        z-index: 1;
+    }
+
+    .rating-stars li.stars-active {
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+    }
+
+    .rating-stars li.stars-active i {
+        color: orange;
+    }
+
+    .content-body {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 2rem 2.3rem;
+    }
+
+    .bg {
+        background-color: #f8f9fa;
+    }
+
+    .price {
+        font-weight: 600;
+        color: #212529;
+    }
+
+</style>
+
+<div class="container-detail">
+    <div class="title">
+        <h2>
+            @Model.Modelo
+            @Model.Marca
+            @Model.Memoria
+            @Model.Processador
+            @Model.RAM
+            @Model.Camera
+        </h2>
+    </div>
+    <div class="information">
+        <div class="img-produto">
+            <img src="@Model.Image" alt="@Model.Marca">
+        </div>
+        <main class="col-md-6 border-left">
+            <article class="content-body">
+                <form asp-controller="carrinho" asp-route-id="@Model.Id" asp-action="adicionar" method="post">
+
+                    <input asp-for="Id" hidden />
+
+                    <h2 class="title">@Model.Modelo</h2>
+
+                    <div class="rating-wrap my-3">
+                        <ul class="rating-stars">
+                            <li style="width: 80%" class="stars-active">
+                                <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </li>
+                            <li>
+                                <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </li>
+                        </ul>
+                        <small class="label-rating text-muted">132 estrelas</small>
+                    </div>
+
+                    <div class="mb-3">
+                        <p class="price h4">@this.FormatMoney(@Model.Preco.Value)</p>
+                    </div>
+
+                    <h5>@Model.Descricao</h5>
+                    <br />
+
+                    <hr>
+                    <br />
+
+                    <button type="submit" class="btn btn-outline-primary">
+                        <span class="text">Adicionar</span> <i class="fas fa-shopping-cart"> &nbsp;</i>
+                    </button>
+                    <a asp-action="Index" class="btn  btn-info">
+                        <span class="text">Voltar</span>
+                    </a>
+                </form>
+            </article>
+        </main>
+    </div>
+</div>
