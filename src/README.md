@@ -1,17 +1,17 @@
-# OfertaFone
+# MM Salgados
 
 ## Instalação
 
 Para instalar as dependencias clone o projeto e execute o seguinte comando dentro da pasta.
 
 ```shell
-dotnet build .\OfertaFone.WebUI.csproj
+dotnet build .\MMSalgados.WebUI.csproj
 ```
 
 logo após execute o sistema:
 
 ```
-dotnet run OfertaFone.WebUI.dll
+dotnet run MMSalgados.WebUI.dll
 ```
 
 ### Pré-requisitos
@@ -35,24 +35,11 @@ docker-compose up
 Para construir a Imagem do Docker:
 
 ```shell
-docker build -t ofertafone .
+docker build -t mmsalgados .
 ```
 
 Para executar o Docker na porta 80:
 
 ```shell
-docker container run --name ofertafone -p 80:80 ofertafone
+docker container run --name mmsalgados -p 80:80 mmsalgados
 ```
-
-## Authors
-
-* **José Vicente** - *Work* - [Jvicentemelo](https://github.com/Jvicentemelo)
-* **Karen Franco** - *Work* - [Karenfranco23](https://github.com/Karenfranco23)
-* **Luiz Carlos** - *Work* - [Luiiz-Souza](https://github.com/Luiiz-Souza)
-* **Pedro Rodrigues** - *Work* - [pedrovitorrs](https://github.com/pedrovitorrs)
-* **Ursula Daniela** - *Work* - [Ursula01](https://github.com/Ursula01)
-
-## Como contribuir
-
-Esteja sempre atento à criação de novas branches, padronização de commits e comentários em código
-para que possamos melhorar sua mantenabilidade.
