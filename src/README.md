@@ -2,10 +2,10 @@
 
 ## Instalação
 
-Para instalar as dependencias clone o projeto e execute o seguinte comando dentro da pasta.
+Para instalar as dependencias clone o projeto e execute o seguinte comando dentro da pasta MMSalgados(pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\src\MMSalgados)
 
 ```shell
-dotnet build .\MMSalgados.WebUI.csproj
+dotnet build MMSalgados.WebUI.csproj
 ```
 
 logo após execute o sistema:
