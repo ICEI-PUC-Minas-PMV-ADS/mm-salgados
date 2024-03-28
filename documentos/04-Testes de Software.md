@@ -139,3 +139,5 @@ Aplicação sendo executada conforme o requerido
 
 Apresente imagens e/ou vídeos que comprovam que um determinado teste foi executado, e o resultado esperado foi obtido. Normalmente são screenshots de telas, ou vídeos do software em funcionamento.
 
+#### RF-001:
+![alt text](./img/Erroteste01.png)
