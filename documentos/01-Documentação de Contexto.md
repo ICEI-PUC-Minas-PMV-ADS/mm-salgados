@@ -12,7 +12,7 @@ Por conseguinte, o presente projeto visa contribuir para o entendimento abrangen
 
 ## Problema
 
-O problema identificado é a falta de modernização no processo de atendimento, que atualmente se baseia em métodos tradicionais e pouco eficientes. Isso resulta em baixa visibilidade da marca e dos produtos, dificultando a expansão do negócio e a conquista de novos clientes em um mercado cada vez mais competitivo. Para solucionar essas questões, será desenvolvida uma plataforma online de vendas, com uma aplicação back-end que gerencia as informações e um front-end que proporciona um melhor acesso aos clientes e controle mais eficiente pelo proprietário. Essa abordagem visa oferecer uma experiência de compra mais conveniente e acessível aos clientes, ao mesmo tempo em que aumenta a visibilidade da marca e otimiza os processos internos da empresa.
+O problema identificado é a falta de modernização no processo de atendimento, que atualmente se baseia via Whatsapp. Isso resulta em baixa visibilidade da marca e dos produtos, dificultando a expansão do negócio e a conquista de novos clientes em um mercado cada vez mais competitivo. Para solucionar essas questões, será desenvolvida uma plataforma online de vendas, com uma aplicação back-end que gerencia as informações e um front-end que proporciona um melhor acesso aos clientes e controle mais eficiente pelo proprietário. Essa abordagem visa oferecer uma experiência de compra mais conveniente e acessível aos clientes, ao mesmo tempo em que aumenta a visibilidade da marca e otimiza os processos internos da empresa.
 
 ## Objetivos
 
