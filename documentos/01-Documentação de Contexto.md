@@ -12,7 +12,7 @@ Por conseguinte, o presente projeto visa contribuir para o entendimento abrangen
 
 ## Problema
 
-O principal problema identificado para o desenvolvimento do projeto está na dificuldade em identificar e implementar soluções tecnológicas adequadas para otimizar processos, atender às demandas dos consumidores e expandir a presença no mercado. Esse desafio resulta em obstáculos significativos para o crescimento e a sustentabilidade no setor alimentício, impedindo a empresa de alcançar todo o seu potencial de sucesso e competitividade. 
+O principal problema identificado é a falta de modernização no processo de atendimento, que atualmente se baseia em métodos tradicionais e pouco eficientes. Isso resulta em baixa visibilidade da marca e dos produtos, dificultando a expansão do negócio e a conquista de novos clientes. 
 
 ## Objetivos
 
