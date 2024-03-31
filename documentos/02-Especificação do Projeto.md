@@ -44,8 +44,7 @@ Razor: Sintaxe de marcação que permite inserir código baseado em .NET em pág
 
 ## Project Model Canvas
 
-![MM_MODELO CANVAS](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/assets/101661631/eed3e86c-193b-45a5-91b8-71c7892f15cb)
-
+![M M_MODELO CANVAS](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/assets/101661631/fef853c2-9f0f-4b28-85a5-7a7dcf166567)
 
 ## Requisitos
 
