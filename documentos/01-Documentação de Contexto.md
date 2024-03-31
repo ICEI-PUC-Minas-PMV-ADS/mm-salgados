@@ -8,7 +8,7 @@ Neste sentido, a utilização da tecnologia emerge como um elemento-chave para i
 
 Sendo assim, a criação de uma plataforma de vendas online oferece às empresas deste segmento, oportunidades significativas para otimizar processos, explorar novos mercados e atender às demandas cada vez mais exigentes dos consumidores de forma conveniente e acessível. Além disso, a tecnologia possibilita uma análise mais aprofundada do comportamento do cliente, permitindo uma personalização eficaz das estratégias de vendas e marketing, adaptadas às preferências e necessidades específicas do público-alvo. 
 
-Por conseguinte, o presente projeto visa contribuir para o entendimento abrangente das estratégias de expansão de negócios no ramo alimentício, com base na integração tecnológica através do desenvolvimento de uma plataforma de vendas. No qual busca maximizar seu potencial de crescimento e alcançar o sucesso sustentável por meio da tecnologia, esta que desempenha um papel cada vez mais crucial para o progresso e a competitividade no mercado de alimentos. 
+Por conseguinte, o presente projeto visa contribuir para o entendimento abrangente das estratégias de expansão de negócios no ramo alimentício, com base na integração tecnológica através do desenvolvimento de uma aplicação back-end que possui um front-end que possibilita melhor acesso do cliente e controle das informações pelo proprietário. No qual busca maximizar seu potencial de crescimento e alcançar o sucesso sustentável por meio da tecnologia, esta que desempenha um papel cada vez mais crucial para o progresso e a competitividade no mercado de alimentos. 
 
 ## Problema
 
@@ -16,7 +16,7 @@ O problema identificado é a falta de modernização no processo de atendimento,
 
 ## Objetivos
 
-O objetivo do projeto é implementar uma solução tecnológica adequada, que otimize os processos internos, atenda de forma mais eficiente às demandas dos consumidores e propicie a expansão da empresa no mercado. 
+O objetivo do projeto é implementar uma aplicação back-end que possui um front-end que possibilita melhor acesso do cliente e controle das informações pelo proprietário, no qual que otimize os processos internos, atenda de forma mais eficiente às demandas dos consumidores e propicie a expansão da empresa no mercado. 
 
 ## Justificativa
 
@@ -28,7 +28,7 @@ Portanto, o desenvolvimento deste projeto representa não apenas uma modernizaç
 
 ## Público-alvo
 
-O público-alvo deste projeto destina-se a empreendedores do setor alimentício que desejam ou têm interesse no desenvolvimento de sites para a comercialização de seus produtos. 
+O público-alvo deste projeto destina-se a empreendedores do setor alimentício que desejam ou têm interesse no desenvolvimento de plataformas online para a comercialização de seus produtos. 
 
 ## Relação com a Extensão Universitária
 
