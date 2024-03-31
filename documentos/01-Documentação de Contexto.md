@@ -16,7 +16,7 @@ O problema relatado pela nossa cliente é a falta de modernização no processo 
 
 ## Objetivos
 
-O objetivo do projeto é implementar uma aplicação back-end que possui um front-end que possibilita melhor acesso do cliente e controle das informações pelo proprietário, no qual que otimize os processos internos, atenda de forma mais eficiente às demandas dos consumidores e propicie a expansão da empresa no mercado. 
+O objetivo do projeto é implementar uma aplicação back-end com um front-end que possibilite o controle das informações pelo proprietário e melhor acesso para o cliente, visando otimizar os processos internos, atender de forma mais eficiente às demandas dos consumidores e propiciar a expansão da empresa no mercado.
 
 ## Justificativa
 
