@@ -81,9 +81,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |04| A plataforma deve ser desenvolvida levando em consideração as restrições de infraestrutura existentes, como limitações de hardware, largura de banda de rede e capacidade de armazenamento, garantindo que a infraestrutura suporte adequadamente as necessidades do site.  |
 
 ## Diagrama de Casos de Uso
-![Diagrama de caso de uso - M M Salgados(1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/assets/101661631/857fc84f-2c8a-4aa5-9157-939e64711855)
-
-documentos/img/Diagrama de casos de uso - MM Salgados.jpeg
 
 ![Diagrama de caso de uso - M M Salgados(1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/Diagrama%20de%20casos%20de%20uso%20-%20MM%20Salgados.jpeg)
 
