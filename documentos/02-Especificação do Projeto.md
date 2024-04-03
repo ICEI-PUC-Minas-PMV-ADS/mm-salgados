@@ -44,8 +44,7 @@ Razor: Sintaxe de marcação que permite inserir código baseado em .NET em pág
 
 ## Project Model Canvas
 
-![MM_MODELO CANVAS](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/assets/101661631/eed3e86c-193b-45a5-91b8-71c7892f15cb)
-
+![M M_MODELO CANVAS](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/assets/101661631/fef853c2-9f0f-4b28-85a5-7a7dcf166567)
 
 ## Requisitos
 
@@ -55,10 +54,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A plataforma deve permitir que o administrador crie uma conta de usuário administrativa, a qual será utilizada para cadastrar e gerenciar os produtos disponíveis.  | ALTA | 
+|RF-001| A plataforma deve permitir a criação de conta admin, a qual será utilizada para cadastrar e gerenciar os produtos disponíveis. E conta de usuário cliente, para efetuar compras.  | ALTA | 
 |RF-002| A plataforma deve apresentar um catálogo completo de salgados disponíveis para compra, com descrições detalhadas, imagens atrativas e preços atualizados.   | ALTA |
 |RF-003| Deve haver um sistema de suporte ao cliente integrado a plataforma, oferecendo canais de comunicação como chat, e-mail ou telefone, para responder dúvidas, resolver problemas e fornecer assistência durante e após a compra.    | ALTA |
-|RF-004| Deve ser implementado um sistema onde os clientes possam deixar avaliações e comentários sobre os salgados que compraram, bem como sobre a experiência geral de compra no site. | ALTA |
+|RF-004| Deve ser implementado um sistema onde os clientes possam deixar avaliações e comentários sobre os salgados que compraram, bem como sobre a experiência geral de compra na plataforma. | ALTA |
 
 ### Requisitos não Funcionais
 
@@ -82,7 +81,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |04| A plataforma deve ser desenvolvida levando em consideração as restrições de infraestrutura existentes, como limitações de hardware, largura de banda de rede e capacidade de armazenamento, garantindo que a infraestrutura suporte adequadamente as necessidades do site.  |
 
 ## Diagrama de Casos de Uso
-![Diagrama de caso de uso - M M Salgados(1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/assets/101661631/857fc84f-2c8a-4aa5-9157-939e64711855)
+
+![Diagrama de caso de uso - M M Salgados(1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/Diagrama%20de%20casos%20de%20uso%20-%20MM%20Salgados.jpeg)
 
 ## Matriz de Rastreabilidade
 Uma matriz de rastreabilidade nada mais é do que uma forma de visualização do relacionamento entre os requisitos. Por meio dela, são listados os requisitos nas linhas e nas colunas da matriz, depois se aplica um X nas células correspondentes, caracterizando os relacionamentos entre os requisitos. Dessa forma, podemos utilizar para efeitos de ilustração, um sistema com quatro requisitos. 
