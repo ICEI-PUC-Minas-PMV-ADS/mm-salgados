@@ -142,5 +142,5 @@ Apresente imagens e/ou vídeos que comprovam que um determinado teste foi execut
 #### RF-001:
 ![alt text](./img/Erroteste01.png)
 
-[![Everything Is AWESOME](https://img.youtube.com/vi/tLo80L_8tVY/0.jpg)](https://www.youtube.com/watch?v=tLo80L_8tVY "Everything Is AWESOME")
+[![](https://img.youtube.com/vi/d9cRqCr1Iik/0.jpg)](https://www.youtube.com/watch?v=d9cRqCr1Iik)
 
