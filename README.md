@@ -6,7 +6,7 @@
 
 `SEMESTRE` Eixo 5
 
-Criação e implementação de um site de vendas de salgados para a empresa, visando modernizar e otimizar o atual modelo de negócio que se baseia exclusivamente na venda via WhatsApp.
+Criação e implementação de uma plataforma de vendas de salgados para a empresa, visando modernizar e otimizar o atual modelo de negócio que se baseia exclusivamente na venda via WhatsApp.
 
 ## Integrantes
 

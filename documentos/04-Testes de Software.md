@@ -30,7 +30,7 @@ Deverá receber a mensagem: ‘Usuário criado com sucesso’
 Deverá ser exibida a tela com as informações esperadas.
 
 #### RF-003:
-**Objetivo** Deve haver um sistema de suporte ao cliente integrado ao site, oferecendo canais de comunicação como chat, e-mail ou telefone, para responder dúvidas, resolver problemas e fornecer assistência durante e após a compra.
+**Objetivo** Deve haver um sistema de suporte ao cliente integrado a plataforma, oferecendo canais de comunicação como chat, e-mail ou telefone, para responder dúvidas, resolver problemas e fornecer assistência durante e após a compra.
 
 **Passos:**
 1.	Acessar a aplicação
@@ -40,7 +40,7 @@ Deverá ser exibida a tela com as informações esperadas.
 No final da página deverá estar o contato para suporte
 
 #### RF-004:
-**Objetivo** Deve ser implementado um sistema onde os clientes possam deixar avaliações e comentários sobre os salgados que compraram, bem como sobre a experiência geral de compra no site.
+**Objetivo** Deve ser implementado um sistema onde os clientes possam deixar avaliações e comentários sobre os salgados que compraram, bem como sobre a experiência geral de compra na plataforma.
 
 **Passos:**
 1	Acessar a aplicação
@@ -138,4 +138,9 @@ Aplicação sendo executada conforme o requerido
 # Evidências de Testes de Software
 
 Apresente imagens e/ou vídeos que comprovam que um determinado teste foi executado, e o resultado esperado foi obtido. Normalmente são screenshots de telas, ou vídeos do software em funcionamento.
+
+#### RF-001:
+![alt text](./img/Erroteste01.png)
+
+[![](https://img.youtube.com/vi/d9cRqCr1Iik/0.jpg)](https://www.youtube.com/watch?v=d9cRqCr1Iik)
 

@@ -1,26 +1,26 @@
 # Introdução
 
-Em um cenário contemporâneo de negócios, a busca pela expansão e aumento das vendas é uma meta constante para as empresas que operam no ramo alimentício e desejam manter sua competitividade e sustentabilidade. Em um ambiente marcado pela complexidade crescente e pela rápida evolução tecnológica, a adoção de estratégias inovadoras, como o desenvolvimento de um site de vendas, torna-se essencial para garantir a relevância e eficácia das operações comerciais no setor alimentício.  
+Em um cenário contemporâneo de negócios, a busca pela expansão e aumento das vendas é uma meta constante para as empresas que operam no ramo alimentício e desejam manter sua competitividade e sustentabilidade. Em um ambiente marcado pela complexidade crescente e pela rápida evolução tecnológica, a adoção de estratégias inovadoras, como o desenvolvimento de uma plataforma de vendas, torna-se essencial para garantir a relevância e eficácia das operações comerciais no setor alimentício.  
 
 De acordo com a pesquisa Consumo Online no Brasil, realizada pela agência Edelman e promovida pela empresa PayPal em 2021, a utilização de aplicativos e plataformas para pedir comida obteve um crescimento expressivo, passando de 40,5% para 66,1% durante a pandemia de Covid-19 (AGÊNCIA BRASIL, 2021). A comodidade digital transformou a experiência do cliente em restaurantes e serviços de alimentação em geral. Apesar da pesquisa indicar uma possível queda de 22,1% para 20% deste hábito entre os brasileiros pós-pandemia, a tendência é que 57,8% das pessoas ouvidas mantenham esta prática no cotidiano (AGÊNCIA BRASIL, 2021), uma vez que, os consumidores podem acessar uma ampla variedade de restaurantes e cardápios diretamente em seus dispositivos. 
 
 Neste sentido, a utilização da tecnologia emerge como um elemento-chave para impulsionar o crescimento e maximizar os resultados financeiros das empresas alimentícias. Surgindo então, as FoodTechs, que, segundo Daniel Antunes (2020), são compostas por empresas e startups do ramo alimentício que inovam na produção, na distribuição, nos produtos ou no modelo de negócio. Em outras palavras, essas organizações trazem qualquer tecnologia inovadora aplicada à maneira como os alimentos são produzidos, vendidos ou servidos (GOBACKLOG, 2020). 
 
-Sendo assim, a criação de um site de vendas oferece às empresas deste segmento, oportunidades significativas para otimizar processos, explorar novos mercados e atender às demandas cada vez mais exigentes dos consumidores de forma conveniente e acessível. Além disso, a tecnologia possibilita uma análise mais aprofundada do comportamento do cliente, permitindo uma personalização eficaz das estratégias de vendas e marketing, adaptadas às preferências e necessidades específicas do público-alvo. 
+Sendo assim, a criação de uma plataforma de vendas online oferece às empresas deste segmento, oportunidades significativas para otimizar processos, explorar novos mercados e atender às demandas cada vez mais exigentes dos consumidores de forma conveniente e acessível. Além disso, a tecnologia possibilita uma análise mais aprofundada do comportamento do cliente, permitindo uma personalização eficaz das estratégias de vendas e marketing, adaptadas às preferências e necessidades específicas do público-alvo. 
 
-Por conseguinte, o presente projeto visa contribuir para o entendimento abrangente das estratégias de expansão de negócios no ramo alimentício, com base na integração tecnológica através do desenvolvimento de um site de vendas. No qual busca maximizar seu potencial de crescimento e alcançar o sucesso sustentável por meio da tecnologia, esta que desempenha um papel cada vez mais crucial para o progresso e a competitividade no mercado de alimentos. 
+Por conseguinte, o presente projeto visa contribuir para o entendimento abrangente das estratégias de expansão de negócios no ramo alimentício, com base na integração tecnológica através do desenvolvimento de uma aplicação back-end que possui um front-end que possibilita melhor acesso do cliente e controle das informações pelo proprietário. No qual busca maximizar seu potencial de crescimento e alcançar o sucesso sustentável por meio da tecnologia, esta que desempenha um papel cada vez mais crucial para o progresso e a competitividade no mercado de alimentos. 
 
 ## Problema
 
-O principal problema identificado para o desenvolvimento do projeto está na dificuldade em identificar e implementar soluções tecnológicas adequadas para otimizar processos, atender às demandas dos consumidores e expandir a presença no mercado. Esse desafio resulta em obstáculos significativos para o crescimento e a sustentabilidade no setor alimentício, impedindo a empresa de alcançar todo o seu potencial de sucesso e competitividade. 
+O problema relatado pela nossa cliente é a falta de modernização no processo de atendimento. Atualmente, todo o processo é realizado exclusivamente via WhatsApp, o que torna o atendimento moroso e pouco eficiente. Isso resulta em baixa visibilidade da marca e dos produtos, dificultando a expansão do negócio e a conquista de novos clientes. Para solucionar essas questões, será desenvolvida uma plataforma online de vendas, com uma aplicação back-end que gerencia as informações e um front-end que proporciona um melhor acesso aos clientes e controle mais eficiente pelo proprietário. Essa abordagem visa oferecer uma experiência de compra mais conveniente e acessível aos clientes, ao mesmo tempo em que aumenta a visibilidade da marca e otimiza os processos internos da empresa. 
 
 ## Objetivos
 
-O objetivo do projeto é implementar uma solução tecnológica adequada, que otimize os processos internos, atenda de forma mais eficiente às demandas dos consumidores e propicie a expansão da empresa no mercado. 
+O objetivo do projeto é implementar uma aplicação back-end com um front-end que possibilite o controle das informações pelo proprietário e melhor acesso para o cliente, visando otimizar os processos internos, atender de forma mais eficiente às demandas dos consumidores e propiciar a expansão da empresa no mercado.
 
 ## Justificativa
 
-Um site de vendas oferece uma série de benefícios tanto para os proprietários de restaurantes quanto para os clientes. Além de gerar agilidade em todo o processo e reduzir erros de comunicação, permite que os consumidores façam pedidos por meio de cardápios digitais, proporcionando uma experiência mais conveniente e eficiente. 
+Uma plataforma de vendas oferece uma série de benefícios tanto para os proprietários de restaurantes quanto para os clientes. Além de gerar agilidade em todo o processo e reduzir erros de comunicação, permite que os consumidores façam pedidos por meio de cardápios digitais, proporcionando uma experiência mais conveniente e eficiente. 
 
 É importante ressaltar que uma plataforma direta de interação com os consumidores propicia a coleta de dados valiosos para avaliar suas preferências e comportamentos de compra. Essas informações podem ser utilizadas para personalizar promoções e ofertas, impulsionando o engajamento e a fidelidade do cliente, e consequentemente, maximizando os resultados comerciais. 
 
@@ -28,7 +28,7 @@ Portanto, o desenvolvimento deste projeto representa não apenas uma modernizaç
 
 ## Público-alvo
 
-O público-alvo deste projeto destina-se a empreendedores do setor alimentício que desejam ou têm interesse no desenvolvimento de sites para a comercialização de seus produtos. 
+O público-alvo deste projeto destina-se a empreendedores do setor alimentício que desejam ou têm interesse no desenvolvimento de plataformas online para a comercialização de seus produtos. 
 
 ## Relação com a Extensão Universitária
 
@@ -38,7 +38,7 @@ Com a implementação de um sistema sociotécnico para criar um catálogo online
 
 A plataforma permitirá que os clientes visualizem facilmente os produtos disponíveis, seus preços, descrições e imagens associadas. Isso proporcionará uma experiência de compra mais conveniente e informativa para os clientes, permitindo que eles façam escolhas mais informadas e precisas sobre os produtos que desejam encomendar.
 
-Além disso, a disponibilidade de um site pode ampliar o alcance da loja de salgados, possibilitando que pessoas que não estão fisicamente próximas à loja possam explorar os produtos oferecidos e fazer encomendas remotamente. Isso pode contribuir para a expansão dos negócios da loja e para o aumento da visibilidade da marca na comunidade.
+Além disso, a disponibilidade de uma plataforma online pode ampliar o alcance da loja de salgados, possibilitando que pessoas que não estão fisicamente próximas à loja possam explorar os produtos oferecidos e fazer encomendas remotamente. Isso pode contribuir para a expansão dos negócios da loja e para o aumento da visibilidade da marca na comunidade.
 
 Portanto, ao resolver o problema de divulgação dos produtos e ao oferecer uma plataforma online acessível e informativa, o sistema sociotécnico pode melhorar significativamente a experiência dos clientes e promover um maior engajamento e interação com a comunidade e demais regiões.
 
@@ -46,7 +46,7 @@ Portanto, ao resolver o problema de divulgação dos produtos e ao oferecer uma 
 
 ### Análise da situação atual
 
-Análise do Modelo de Negócio Atual (Venda Apenas via WhatsApp) para o desenvolvimento do site de vendas de salgados: 
+Análise do Modelo de Negócio Atual (Venda Apenas via WhatsApp) para o desenvolvimento de uma plataforma de vendas online de salgados: 
 
 1. Limitações de Escala e Alcance 
 
