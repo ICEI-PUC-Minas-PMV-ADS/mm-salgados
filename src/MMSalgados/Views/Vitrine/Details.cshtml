@@ -16,13 +16,16 @@
     .information {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
         justify-content: space-between;
     }
 
     .img-produto {
         width: auto;
         margin: auto;
+    }
+
+    .coxinha-img {
+        max-width: 600px;
     }
 
     .descricao {
@@ -127,7 +130,7 @@
     </div>
     <div class="information">
         <div class="img-produto">
-            <img src="@Model.Image" alt="@Model.Marca">
+            <img src="\assets\coxinha.jpg" alt="Coxinha" class="coxinha-img">
         </div>
         <main class="col-md-6 border-left">
             <article class="content-body">

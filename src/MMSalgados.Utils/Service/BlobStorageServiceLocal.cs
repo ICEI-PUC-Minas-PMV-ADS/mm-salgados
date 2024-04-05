@@ -22,7 +22,7 @@ namespace MMSalgados.Utils.Service
         /// <returns></returns>
         public Task<string> UploadAsync(Stream Content, string Name, string ContentType)
         {
-            return Task.FromResult("http://localhost:58204/assets/galaxy.png");
+            return Task.FromResult("http://localhost:58204/assets/coxinha.jpg");
         }
     }
 }

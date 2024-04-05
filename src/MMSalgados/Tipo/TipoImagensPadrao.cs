@@ -10,7 +10,7 @@ namespace MMSalgados.WebUI.Tipo
         /// <summary>
         /// Essa constante representa uma url para o link de imagem para produto padrao
         /// </summary>
-        public static string _PRODUTO = "http://localhost:58204/assets/galaxy.png";
+        public static string _PRODUTO = "http://localhost:58204/assets/coxinha.jpg";
         /// <summary>
         /// Essa constante representa uma url para o link de imagem para usuario padrao
         /// </summary>
