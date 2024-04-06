@@ -1,11 +1,45 @@
-# Instruções de utilização
+# MM Salgados
 
-## Instalação do Site
+## Instalação
 
-O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...
+Para instalar as dependencias clone o projeto e execute o seguinte comando dentro da pasta MMSalgados(pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\src\MMSalgados)
 
-## Histórico de versões
+```shell
+dotnet build MMSalgados.WebUI.csproj
+```
 
-### [0.1.0] - DD/MM/AAAA
-#### Adicionado
-- Adicionado ...
+logo após execute o sistema:
+
+```
+dotnet run MMSalgados.WebUI.dll
+```
+
+### Pré-requisitos
+
+Para executar este container deverá ter o Docker instalado.
+
+* [Windows](https://docs.docker.com/windows/started)
+* [OS X](https://docs.docker.com/mac/started/)
+* [Linux](https://docs.docker.com/linux/started/)
+
+### Containers
+
+#### Compose Project
+
+O projeto já possui um docker-compose configurado, conseguirá executar o projeto somente executando o código:
+
+```shell
+docker-compose up
+```
+
+Para construir a Imagem do Docker:
+
+```shell
+docker build -t mmsalgados .
+```
+
+Para executar o Docker na porta 80:
+
+```shell
+docker container run --name mmsalgados -p 80:80 mmsalgados
+```
