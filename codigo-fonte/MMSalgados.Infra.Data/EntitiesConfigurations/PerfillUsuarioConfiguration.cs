@@ -19,6 +19,12 @@ namespace MMSalgados.Infra.Data.EntitiesConfigurations
                     Id = 1,
                     Nome = "ADMIN",
                     Situacao = 1
+                },
+                new PerfilUsuario()
+                {
+                    Id = 2,
+                    Nome = "CLIENTE",
+                    Situacao = 1
                 }
             );
         }

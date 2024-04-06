@@ -19,8 +19,4 @@
     <ProjectReference Include="..\MMSalgados.Domain\MMSalgados.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Migrations\" />
-  </ItemGroup>
-
 </Project>

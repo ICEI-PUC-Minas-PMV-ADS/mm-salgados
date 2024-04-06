@@ -49,20 +49,22 @@ namespace MMSalgados.WebUI.Identity.Stores
                 UserName = user.Login,
                 Email = user.Email,
                 PasswordHash = user.Senha,
-                Image = user.Image
+                Image = user.Image,
+                Roles = new string[] { user?.PerfilUsuario?.Nome }
             };
         }
 
         public async Task<ApplicationUser> FindByNameAsync(string normalizedUserName, CancellationToken cancellationToken)
         {
-            var user = await _usuarioRepository.Table.Where(user => user.Login.ToLower() == normalizedUserName.ToLower()).FirstOrDefaultAsync(cancellationToken: cancellationToken);
+            var user = await _usuarioRepository.Table.Include(u => u.PerfilUsuario).Where(user => user.Login.ToLower() == normalizedUserName.ToLower()).FirstOrDefaultAsync(cancellationToken: cancellationToken);
             return new ApplicationUser()
             {
                 Id = user.Id,
                 UserName = user.Login,
                 Email = user.Email,
                 PasswordHash = user.Senha,
-                Image = user.Image
+                Image = user.Image,
+                Roles = new string[] { user?.PerfilUsuario?.Nome }
             };
         }
 

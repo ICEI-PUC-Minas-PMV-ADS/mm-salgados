@@ -7,6 +7,7 @@ namespace MMSalgados.WebUI.Tipo
 {
     public enum TipoPerfil : int
     {
-        ADMIN = 1
+        ADMIN = 1,
+        CLIENTE = 2
     }
 }

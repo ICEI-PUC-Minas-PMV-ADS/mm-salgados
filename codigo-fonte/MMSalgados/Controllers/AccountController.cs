@@ -126,7 +126,7 @@ namespace MMSalgados.WebUI.Controllers
                 {
                     var usuario = _imapper.Map<Usuario>(registerViewModel);
                     usuario.Situacao = (int?)TipoSituacao.ATIVO;
-                    usuario.PerfilUsuarioId = (int?)TipoPerfil.ADMIN;
+                    usuario.PerfilUsuarioId = (int?)TipoPerfil.CLIENTE;
                     usuario.Image = TipoImagensPadrao._USUARIO;
 
                     if (await _userRepository.Table.Where(a => a.Login.ToLower() == registerViewModel.Login.ToLower()).FirstOrDefaultAsync() != null)
