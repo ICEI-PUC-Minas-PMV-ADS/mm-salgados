@@ -10,7 +10,7 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 ![fluxo_administrador](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/assets/100872927/29d84a98-ed04-4c99-884b-a3944d8dc6e2)
 
 ## Wireframes
-São protótipos usados em design de interface para sugerir a estrutura de uma plataforma online e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+São protótipos usados em design de interface para sugerir a estrutura de uma plataforma online e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface. Para visualziar o wireframe interativo, acesse o <a href="https://rp2.mockplus.com/run/-qzeDBmuef/k99hgJP65?cps=expand&rps=hide&nav=1&ha=1&la=1&fc=0&out=0&rt=1&as=true">Ambiente Mockplus do Projeto<a>
 
 ![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/assets/101661631/5bcd823d-e630-42b6-b810-f1ffbd9c2287)
 ![Wireframes - MM](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/assets/101661631/5f6ebe22-a9fe-4e66-b1ea-93c7162cb4f4)
