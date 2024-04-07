@@ -13,9 +13,9 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 
 **Passos:**
 1.	Acessar a aplicação
-2.	Clicar em ‘Novo Usuário’
-3.	Inserir login e senha
-4.	Clicar em ‘Salvar’
+2.	Clicar em ‘Crie sua conta’
+3.	Inserir nome, email, senha
+4.	Clicar em ‘Registrar’
 
 **Critérios de Êxito:**
 Deverá receber a mensagem: ‘Usuário criado com sucesso’
@@ -140,7 +140,10 @@ Aplicação sendo executada conforme o requerido
 Apresente imagens e/ou vídeos que comprovam que um determinado teste foi executado, e o resultado esperado foi obtido. Normalmente são screenshots de telas, ou vídeos do software em funcionamento.
 
 #### RF-001:
-![alt text](./img/Erroteste01.png)
+Falha no lançamento da aplicação.
+![Erro teste01](./img/Erroteste01.png)
+![Erro Teste01](./img/Erroteste02.jpg)
 
-[![](https://img.youtube.com/vi/d9cRqCr1Iik/0.jpg)](https://www.youtube.com/watch?v=d9cRqCr1Iik)
+Video da aplicação de cadastro e login em funcionamento.
+[![Video](https://img.youtube.com/vi/9csMAZb7p50/0.jpg)](https://www.youtube.com/watch?v=9csMAZb7p50)
 
