@@ -18,38 +18,23 @@
                 <form asp-controller="produto" asp-action="create" method="post" enctype="multipart/form-data">
                     <div class="row form-horizontal">
                         <div class="col-4 col-xs-12 mb-3">
-                            <label asp-for="Marca" class="control-label">Marca</label>
+                            <label asp-for="Marca" class="control-label">Categoria</label>
                             <input asp-for="Marca" class="form-control" />
                             <span asp-validation-for="Marca" class="text-danger"></span>
                         </div>
                         <div class="col-4 col-xs-12 mb-3">
-                            <label asp-for="Modelo" class="control-label">Modelo</label>
+                            <label asp-for="Modelo" class="control-label">Produto</label>
                             <input asp-for="Modelo" class="form-control" />
                             <span asp-validation-for="Modelo" class="text-danger"></span>
                         </div>
-                        <div class="col-4 col-xs-12 mb-3">
-                            <label asp-for="Processador" class="control-label">Processador</label>
-                            <input asp-for="Processador" class="form-control" />
-                        </div>
-                        <div class="col-4 col-xs-12 mb-3">
-                            <label asp-for="Memoria" class="control-label">Memória</label>
-                            <input asp-for="Memoria" class="form-control" />
-                        </div>
-                        <div class="col-4 col-xs-12 mb-3">
-                            <label asp-for="Camera" class="control-label">Câmera</label>
-                            <input asp-for="Camera" class="form-control" />
-                        </div>
-                        <div class="col-4 col-xs-12 mb-3">
-                            <label asp-for="RAM" class="control-label">RAM</label>
-                            <input asp-for="RAM" class="form-control" />
-                        </div>
+
                         <div class="col-4 col-xs-12 mb-3">
                             <label asp-for="Preco" class="control-label">Preço</label>
                             <input asp-for="Preco" class="form-control" />
                             <span asp-validation-for="Preco" class="text-danger"></span>
                         </div>
                         <div class="col-4 col-xs-12 mb-3">
-                            <label asp-for="Descricao" class="control-label">Mais Informações</label>
+                            <label asp-for="Descricao" class="control-label">Detalhes do Produto</label>
                             <input asp-for="Descricao" class="form-control" />
                             <span asp-validation-for="Descricao" class="text-danger"></span>
                         </div>
