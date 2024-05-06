@@ -1,0 +1,54 @@
+﻿@model LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = TipoLayout.LAYOUT_ACCOUNT;
+}
+
+<div class="app-brand justify-content-center">
+<a asp-controller="vitrine" asp-action="index" class="app-brand-link gap-2">
+    <span class="app-brand-logo demo">
+    </span>
+    <span class="app-brand-text demo text-body fw-bolder">MM SALGADOS</span>
+</a>
+</div>
+<h4 class="mb-2">Bem-vindo ao MM Salgados! 👋</h4>
+<p class="mb-4">Faça login na sua conta e descubra os salgados mais saborosos!</p>
+<form asp-controller="Account" asp-action="Login" method="post" class="form-horizontal">
+    <input type="hidden" asp-for="ReturnUrl" />
+     <div class="mb-3">
+         <label asp-for="Username" class="form-label">Nome de usuário</label>
+        <input  asp-for="Username" placeholder="exemplo@exemplo.com" autofocus class="form-control" />
+        <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+    <div class="mb-3 form-password-toggle">
+        <div class="d-flex justify-content-between">
+           <label asp-for="Password" class="form-label">Senha</label>
+            <a asp-action="ForgotPassword" asp-controller="Account">
+                <small>Esqueceu sua Senha?</small>
+            </a>
+        </div>
+        <div class="input-group input-group-merge">
+            <input asp-for="Password" class="form-control" type="password" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="password"/>
+            <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
+        </div>
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <div class="form-check">
+            <input asp-for="RememberMe" class="form-check-input" type="checkbox"/>
+            <label asp-for="RememberMe" class="form-check-label">Lembre de mim</label>
+        </div>
+    </div>
+    <div class="mb-3">
+        <button class="btn btn-primary d-grid w-100" type="submit">Entrar</button>
+    </div>
+</form>
+
+<p class="text-center">
+    <span>Novo em nosso site?</span>
+    <a asp-action="Register" asp-controller="Account">
+        <span>Crie sua conta</span>
+    </a>
+</p>
+
+  @await Html.PartialAsync("_ValidationScriptsPartial")

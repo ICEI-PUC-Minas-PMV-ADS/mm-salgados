@@ -1,0 +1,120 @@
+﻿@model MMSalgados.WebUI.ViewModels.Produto.IndexViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = TipoLayout.LAYOUT_DASHBOARD;
+}
+
+<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Produto/</span> Meus Anúncios</h4>
+
+<div class="card mb-4">
+    <div class="card-header bg-secondary">
+        <h5 class="mb-0">Consultar Produto</h5>
+    </div>
+    <div class="card-body">
+        <br/>
+        <form asp-action="index" asp-controller="produto" method="post">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <label asp-for="Marca" class="control-label">Categoria</label>
+                    <input asp-for="Marca" class="form-control" />
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label asp-for="Modelo" class="control-label">Produto</label>
+                    <input asp-for="Modelo" class="form-control" />
+                </div>
+            </div>
+         
+            <div class="row justify-content-end">
+                <div class="col-md-12 mb-3">
+                    <button type="submit" class="btn btn-primary me-2">
+                        <i class="bx bx-search"></i> Buscar
+                    </button>
+                    <a asp-action="create" asp-controller="produto" class="btn btn-secondary">
+                        <i class="bx bx-plus"></i> Adicionar
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@if (Model.IndexTableViewModels != null && Model.IndexTableViewModels.Any())
+{
+    <div class="card">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle">
+                <thead>
+                    <tr>
+                        <th>Categoria</th>
+                        <th>Produto</th>
+                        <th>Imagem</th>
+                        <th>Status</th>
+                        <th>Editar</th>
+                        <th>Excluir</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.IndexTableViewModels)
+                    {
+                        <tr>
+                            <td><i class="fab fa-angular fa-lg text-danger me-2"></i> @item.Marca</td>
+                            <td>@item.Modelo</td>
+                            <td>
+                                <img src="@item.Image" alt="Imagem do Produto" class="img-thumbnail" style="max-width: 100px;" />
+                            </td>
+                            <td>
+                                @if (item.Ativo)
+                                {
+                                    <span class="badge bg-warning text-dark">AGUARDANDO VENDA</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-success">VENDIDO</span>
+                                }
+                            </td>
+                            <td>
+                                @if (item.Ativo)
+                                {
+                                    <a class="btn btn-sm btn-primary" asp-controller="produto" asp-action="edit" asp-route-id="@item.Id">
+                                        <i class="bx bx-edit-alt"></i>
+                                    </a>
+                                }
+                                else
+                                {
+                                    <button class="btn btn-sm btn-secondary" disabled>
+                                        <i class="bx bx-edit-alt"></i>
+                                    </button>
+                                }
+                            </td>
+                            <td>
+                                @if (item.Ativo)
+                                {
+                                    <form asp-controller="produto" asp-action="delete" asp-route-id="@item.Id" method="POST">
+                                        <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Tem certeza que deseja excluir este produto?')">
+                                            <i class="bx bx-trash"></i>
+                                        </button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    <button class="btn btn-sm btn-secondary" disabled>
+                                        <i class="bx bx-trash"></i>
+                                    </button>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+}
+else
+{
+    <div class="alert alert-warning" role="alert">
+        Nenhum resultado encontrado!
+    </div>
+}
+
+@await Html.PartialAsync("_ValidationScriptsPartial")

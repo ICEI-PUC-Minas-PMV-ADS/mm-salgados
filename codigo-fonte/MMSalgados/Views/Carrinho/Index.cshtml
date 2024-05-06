@@ -1,0 +1,506 @@
+﻿@model MMSalgados.WebUI.ViewModels.Carrinho.IndexViewModel
+@using MMSalgados.Utils.Extensions;
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = TipoLayout.LAYOUT_VITRINE;
+}
+
+<style>
+    .form-check-input:checked[type=radio] {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='2' fill='%23fff'/%3E%3C/svg%3E");
+    }
+
+    .form-check-input:checked[type=checkbox] {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3 6-6'/%3E%3C/svg%3E");
+    }
+
+    .form-check-input:checked {
+        background-color: #2c7be5;
+        border-color: #2c7be5;
+    }
+
+    .form-check-input[type=radio] {
+        border-radius: 50%;
+    }
+
+    .form-check .form-check-input {
+        float: left;
+        margin-left: -1.5em;
+    }
+
+    .form-check-input,
+    .form-select {
+        -webkit-appearance: none;
+    }
+
+    .form-check-input {
+        width: 1em;
+        height: 1em;
+        margin-top: .25em;
+        vertical-align: top;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: contain;
+        border: 1px solid #b6c1d2;
+    }
+
+    .form-control {
+        display: block;
+        width: 50%;
+        height: calc(2.25rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    }
+
+    .mb-2 {
+        margin-bottom: 20px;
+    }
+
+    button,
+    select {
+        text-transform: none;
+    }
+
+    .payment-method-selection {
+        cursor: pointer;
+        border: 1px solid #c6c6c6;
+        border-radius: 8px;
+        padding: 12px 16px;
+    }
+
+    #pagamentoConfirmacao p {
+        font-size: 13px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-weight: 700;
+    }
+
+    .pagamentoConfirmacao .box-sem-troco {
+        position: relative;
+    }
+
+    .fa-coins:before {
+        content: "\f51e";
+    }
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: border-box;
+    }
+
+    .fa,
+    .fab,
+    .fal,
+    .far,
+    .fas {
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+    }
+
+    .fa,
+    .fas {
+        font-weight: 900;
+    }
+
+    .input-group {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        width: 50%;
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    .input-group-prepend {
+        margin-right: -1px;
+        display: flex;
+    }
+
+    label.sem-troco {
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+
+    .input-group.box-sem-troco {
+        padding-left: 1px;
+    }
+
+    .input-group>.form-control:not(:first-child) {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .input-group>.custom-file,
+    .input-group>.custom-select,
+    .input-group>.form-control,
+    .input-group>.form-control-plaintext {
+        position: relative;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        width: 1%;
+        margin-bottom: 0;
+    }
+
+    .input-group>.input-group-prepend>.input-group-text {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .dialog-body input,
+    .dialog-body select,
+    .boxConfirmacao input,
+    .boxConfirmacao select {
+        padding: 10px 15px;
+        font-size: 13px;
+        outline: 0px !important;
+    }
+
+    .input-group-text {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: .375rem .75rem;
+        margin-bottom: 0;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        text-align: center;
+        white-space: nowrap;
+        background-color: #e9ecef;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+    }
+
+    .pagamentoConfirmacao .box-sem-troco input {
+        position: relative;
+        position: absolute;
+        left: 0px;
+        top: 10px;
+        bottom: 0px;
+        width: 25px !important;
+        height: 19px;
+    }
+
+    .pagamentoConfirmacao .box-sem-troco label {
+        text-align: left;
+        padding-left: 30px !important;
+    }
+
+
+    .secundario.troco.slideInDown.faster {
+        padding-top: 15px;
+        padding-left: 45px;
+    }
+
+    .pagamentoConfirmacao label {
+        padding: 10px;
+        padding-left: 40px;
+        width: 100%;
+        display: table;
+        font-size: 13px;
+        margin-bottom: 0px;
+        font-weight: bold;
+        color: #666;
+        cursor: pointer;
+    }
+
+    .alert-warning {
+        color: #856404;
+        background-color: #fff3cd;
+        border-color: #ffeeba;
+    }
+
+    .alert {
+        position: relative;
+        padding: .75rem 1.25rem;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+    }
+
+    .infoEntregaConfirmacao {
+        display: table;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .infoEntregaConfirmacao .seleciona {
+        display: table;
+        width: 100%;
+        border-bottom: 1px #dedede solid;
+        margin-bottom: 20px;
+    }
+
+    .infoEntregaConfirmacao .seleciona .box {
+        display: table;
+        margin: 0 auto;
+    }
+
+    .infoEntregaConfirmacao .seleciona .box a.ativo {
+        color: #fff;
+        background: #ce0000;
+        text-decoration: none;
+    }
+
+    .infoEntregaConfirmacao .seleciona .box a i {
+        float: left;
+        line-height: 18px;
+        font-size: 18px;
+        margin-right: 5px;
+    }
+
+    .infoEntregaConfirmacao .seleciona .box a {
+        float: left;
+        display: table;
+        padding: 12px 15px;
+        border-radius: 8px 8px 0 0;
+        background: #fff;
+        margin: 0 1px;
+        margin-bottom: -1px;
+        color: #666;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 18px;
+        cursor: pointer;
+        border: 1px #DEDEDE solid;
+    }
+
+    #confirmacao-pedido .formEntrega .btn {
+        border-color: #dedede;
+        border-radius: 60px;
+        padding: 10px 20px;
+
+    }
+
+    #confirmacao-pedido .btn {
+        margin-bottom: 15px;
+    }
+
+    .address-select-btn {
+        border-color: #ce0000 !important;
+        background-color: #f5f5f5;
+    }
+
+    .button-info {
+        border: 1px solid #611;
+        padding: 12px 16px;
+        font-size: 13px;
+        border-radius: 8px;
+    }
+
+    .text-center {
+        text-align: center !important;
+    }
+
+    .obsConfirmacao {
+        display: table;
+        width: 100%;
+        font-weight: bold;
+    }
+</style>
+
+@if (Model.Produtos.Any())
+{
+    <div class="row g-3 pt-2">
+        <div class="col-xl-4 order-xl-1">
+            <div class="card">
+                <div class="card-header bg-light btn-reveal-trigger d-flex flex-between-center">
+                    <h5 class="mb-0">Resumo do Pedido</h5>
+                </div>
+                <div class="card-body">
+                    <table class="table table-borderless fs--1 mb-0">
+                        <tbody>
+                            @foreach (var produto in Model?.Produtos)
+                            {
+                                <tr class="border-bottom">
+                                    <th class="ps-0 pt-0 p-0" style="font-weight: 400;">
+                                        <a asp-controller="vitrine" asp-action="details" asp-route-id="@produto.Id">
+                                            @produto.Marca @produto.Modelo x 1
+                                            <div class="fw-normal">
+                                                (@produto.RAM, @produto.Camera)
+                                            </div>
+                                        </a>
+                                        <form asp-controller="Carrinho" asp-action="Deletar" asp-route-id="@produto.Id">
+                                            <div class="fs--2 fs-md--1">
+                                                <button type="submit"
+                                                    class="text-danger fs--2 fs-md--1 fw-normal p-0 btn btn-link btn-sm">
+                                                    Remover
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </th>
+                                    <th class="pe-0 text-end pt-0">@this.FormatMoney(produto.Preco.Value)</th>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <!--Totalizador Carrinho-->
+                <div class="card-footer d-flex justify-content-between bg-light">
+                    <div class="fw-semi-bold">Total a Pagar</div>
+                    <div><strong>@this.FormatMoney(@Model.Total)</strong></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-8">
+            <div class="card">
+                <div class="card-header bg-light">
+                    <h5 class="mb-0">Formas de Pagamento</h5>
+                </div>
+                <div class="card-body">
+                    <form asp-controller="Pedido" asp-action="Finalizar">
+                        <div class="form-check mb-0">
+                            <input asp-for="TipoPagamento" class="form-check-input" type="radio" value="credit-card"
+                                id="credit-card" checked="checked" name="TipoPagamento">
+                            <label asp-for="TipoPagamento" class="form-check-label mb-2 fs-1" for="credit-card">
+                                <img src="~/assets/misc/icone-maquininha.png" height="40" alt="maquininha">
+                                Cartão de Crédito
+                            </label>
+                            <select class="form-control">
+                                <option value="0">Selecione</option>
+                                <option value="d7be69f1-563c-4f6d-8f1c-6cacd5c81cad">Crédito - American Express</option>
+                                <option value="62b70e70-fcd6-46f7-8c0d-3cffbe5b0258">Crédito - Elo</option>
+                                <option value="41a9cad4-c525-40ab-a000-458ee109c134">Crédito - Hipercard</option>
+                                <option value="bd5adaab-c8b7-4dab-b8d6-954d546d782a">Crédito - Mastercard</option>
+                                <option value="f3879428-baeb-4671-b975-eb8f5a4413ac">Crédito - Visa</option>
+                                <option value="76c688d4-69c4-4520-8cf7-d1df86305fef">Débito - Elo</option>
+                                <option value="04c31b81-7904-4e7a-bb6e-77d786f0428b">Débito - Mastercard</option>
+                                <option value="ede379c3-6c2f-48cb-ac7f-5fee2022b2b2">Débito - Visa</option>
+                                <option value="849fc2f9-c892-4f0e-8994-50005b05343e">Vale - Alelo Refeição</option>
+                            </select>
+                        </div>
+                        <div class="row gx-0 ps-2 mb-4">
+                            <div class="col-4 ps-3 text-center pt-2 d-none d-sm-block">
+                                <!--
+                                                                            <div class="rounded-1 p-2 mt-3 bg-100" style="background-color: rgba(249,250,253,1) !important;">
+                                                                            <span class="text-uppercase fs--2 fw-bold">NÓS ACEITAMOS</span>
+                                                                            <img src="~/assets/misc/icon-payment-methods-grid.png" alt="" width="120">
+                                                                        </div> 
+                                                                        -->
+                            </div>
+                        </div>
+                        <div class="border-bottom border-dashed my-5"></div>
+                        <div class="form-check d-flex align-items-center">
+                            <input asp-for="TipoPagamento" class="form-check-input" type="radio" value="pix" id="pix"
+                                name="TipoPagamento">
+                            <label asp-for="TipoPagamento" class="form-check-label mb-0 ms-2" for="pix">
+                                <img src="~/assets/misc/logo-pix.png" height="40" alt="pix">
+                                Pix
+                            </label>
+                        </div>
+                        <div class="border-bottom border-dashed my-5"></div>
+                        <div class="form-check d-flex align-items-center">
+                            <input asp-for="TipoPagamento" class="form-check-input" type="radio" value="dinheiro"
+                                id="dinheiro" name="TipoPagamento">
+                            <label asp-for="TipoPagamento" class="form-check-label mb-0 ms-2" for="dinheiro">
+                                <img src="~/assets/misc/dinheiro.png" height="40" alt="dinheiro">
+                                Dinheiro
+                            </label>
+                        </div>
+                        <div class="secundario troco slideInDown faster">
+                            <p><i class="fas fa-coins"></i> Troco para:</p>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">R$</div>
+                                </div>
+                                <input type="money" id="change" name="change" placeholder="Ex: 100,00"
+                                    class="form-control price"
+                                    data-mask="[&quot;#&quot;,&quot;##&quot;,&quot;#,##&quot;,&quot;##,##&quot;,&quot;###,##&quot;]"
+                                    data-mask-inited="true" data-mask-raw-value="">
+                            </div>
+                            <div class="input-group box-sem-troco">
+                                <input type="checkbox" name="no-change" id="no-change">
+                                <label for="no-change" class="sem-troco">Sem troco</label>
+                            </div>
+                        </div>
+                        <div class="border-bottom border-dashed my-5"></div>
+                        <div class="obsConfirmacao">
+                            <label class="text-center">Observações</label>
+                            <input type="text" id="obsConfirmacao" class="form-control" name="obsConfirmacao"
+                                placeholder="Encomendas, Detalhes sobre o Pedido">
+                        </div>
+                        <div class="infoEntregaConfirmacao">
+                            <div class="seleciona">
+                                <div class="box">
+                                    <a id="entrega" data-open="entrega" class="ativo">
+                                        <i class="fas fa-motorcycle">
+                                        </i>
+                                        Entrega
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="entrega" class="formEntrega">
+                                <!---->
+                                <div class="text-center">
+                                    <div class="btn button-info address-select-btn">
+                                        <i class="fas fa-map-marker-alt mr-2"></i>
+                                        <span>Informe o endereço para entrega</span>
+                                        <i class="fas fa-angle-right ml-2 fa-lg"></i>
+                                    </div>
+                                    <!---->
+                                    <!---->
+                                </div>
+                            </div>
+                            <!---->
+                        </div>
+                        <div class="border-bottom border-dashed my-5"></div>
+                        <div class="row">
+                            <div
+                                class="col-md-5 col-xl-12 col-xxl-5 ps-lg-4 ps-xl-2 ps-xxl-5 text-center text-md-start text-xl-center text-xxl-start">
+                                <div class="fs-2 fw-semi-bold"
+                                    style="font-weight: 600 !important; font-size: 1.44rem !important; ">
+                                    Total: <span class="text-primary">@this.FormatMoney(@Model.Total)</span>
+                                </div>
+                                <p class="alert alert-warning">
+                                    Ao enviar o seu pedido, uma janela deverá abrir com o seu WhatsApp, para que você nos
+                                    envie uma mensagem com o seu pedido
+                                </p>
+                                <button class="btn btn-success mt-3 px-5" type="submit">
+                                    <span class="text"> Envie seu pedido </span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="card mt-4 mb-4">
+        <div class="col-md-12" style="text-align: center">
+            <h2>Seu carrinho está vazio! 🛒</h2>
+            <h5>Adicione produtos clicando no botão "Adicionar" na página de produto!</h5>
+        </div>
+    </div>
+}
+
+<script>
+    window.onload = () => {
+        $('input[Name="@nameof(Model.Numero_Cartao)"]').mask('0000.0000.0000.0000');
+        $('input[Name="@nameof(Model.Data_Expiracao)"]').mask('99/9999');
+    };
+</script>

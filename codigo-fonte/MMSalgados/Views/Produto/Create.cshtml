@@ -1,0 +1,81 @@
+﻿@model MMSalgados.WebUI.ViewModels.Produto.CreateViewModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = TipoLayout.LAYOUT_DASHBOARD;
+}
+
+<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Produto/</span> Adicionar Produto</h4>
+
+<!-- Basic Layout -->
+<div class="row">
+    <div class="col-xl">
+        <div class="card mb-4">
+            <div class="card-header bg-secondary">
+                <h5 class="mb-0">Adicionar Produto</h5>
+            </div>
+            <div class="card-body" style="background-color: #F5F5F5;">
+                <br />
+                <form asp-controller="produto" asp-action="create" method="post" enctype="multipart/form-data">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label asp-for="Marca" class="control-label">Categoria</label>
+                                <input asp-for="Marca" class="form-control" />
+                                <span asp-validation-for="Marca" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label asp-for="Modelo" class="control-label">Produto</label>
+                                <input asp-for="Modelo" class="form-control" />
+                                <span asp-validation-for="Modelo" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label asp-for="Preco" class="control-label">Preço</label>
+                                <input asp-for="Preco" class="form-control" />
+                                <span asp-validation-for="Preco" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="form-group">
+                                <label asp-for="Descricao" class="control-label">Detalhes do Produto</label>
+                                <input asp-for="Descricao" class="form-control" />
+                                <span asp-validation-for="Descricao" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                                <label class="control-label">Inserir Imagem</label>
+                                <input name="Image" type="file" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <button type="submit" class="btn btn-success">Adicionar</button>
+                        <a asp-action="index" asp-controller="produto" class="btn btn-secondary">
+                            <span class="tf-icons bx bx-arrow-back"></span>&nbsp; Voltar
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@await Html.PartialAsync("_ValidationScriptsPartial")
+
+@section Scripts{
+    <script type="text/javascript">
+        $(document).ready(function (){
+            SetTypeMask();
+        });
+
+        function SetTypeMask() {
+            $('input[Name="@nameof(Model.Preco)"]').mask('#.##0,00', {placeholder:"0,00", reverse: true});
+        }
+
+    </script>
+}
