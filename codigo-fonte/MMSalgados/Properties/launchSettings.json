@@ -2,13 +2,16 @@
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
-      "launchBrowser": true
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
     },
     "OfertaFone": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "",
+        "ASPNETCORE_ENVIRONMENT": "Development",
         "DataContextConnection": "Host=localhost;Port=15432;Database=mmsalgados;Username=postgres;Password=postgres@2022;"
       },
       "dotnetRunMessages": "true",
