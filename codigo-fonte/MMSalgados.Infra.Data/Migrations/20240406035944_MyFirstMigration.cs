@@ -123,11 +123,7 @@ namespace MMSalgados.Infra.Data.Migrations
                     Image = table.Column<string>(type: "text", nullable: true),
                     Ativo = table.Column<bool>(type: "boolean", nullable: false),
                     Modelo = table.Column<string>(type: "text", nullable: false),
-                    Marca = table.Column<string>(type: "text", nullable: false),
-                    Processador = table.Column<string>(type: "text", nullable: true),
-                    Memoria = table.Column<string>(type: "text", nullable: true),
-                    Camera = table.Column<string>(type: "text", nullable: true),
-                    RAM = table.Column<string>(type: "text", nullable: true),
+                    Tipo = table.Column<string>(type: "text", nullable: false),
                     UsuarioId = table.Column<int>(type: "integer", nullable: true)
                 },
                 constraints: table =>

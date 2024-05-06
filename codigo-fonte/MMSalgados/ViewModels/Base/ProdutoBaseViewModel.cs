@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Npgsql.TypeHandlers.NumericHandlers;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -13,12 +14,10 @@ namespace MMSalgados.WebUI.ViewModels.Base
         [Required]
         public string Descricao { get; set; }
         [Required]
-        public string Modelo { get; set; }
+        public string Produto { get; set; }
         [Required]
-        public string Marca { get; set; }
-        public string Processador { get; set; }
-        public string Memoria { get; set; }
-        public string Camera { get; set; }
-        public string RAM { get; set; }
+        public string Tipo { get; set; }
+        public int Quantidade { get; set; }
+        public string Modelo { get; set; }
     }
 }

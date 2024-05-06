@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W13MuTTenJ8B0E5NxNqvjicQlvArtc4x0NYrMkfF5df2+iKiREfj0dI52IhqmGj1e6mXnrHl3Xpw6ObrdUr5oQ==",
+  "dgSpecHash": "sbOGxtnsrwJswYrnA4Rtf4v6m6w316GtkG2v1ZuTZdk6ARjCNAVkXuRdBzJpg6G6orMhyXbR4epxK8Mm/8VrGA==",
   "success": true,
-  "projectFilePath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados\\MMSalgados.WebUI.csproj",
+  "projectFilePath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados\\MMSalgados.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\agent\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\agent\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
@@ -155,7 +155,7 @@
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Azure.Identity' 1.10.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
+      "message": "O pacote 'Azure.Identity' 1.10.2 tem uma moderado vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
       "libraryId": "Azure.Identity",
       "targetGraphs": [
         "net5.0"

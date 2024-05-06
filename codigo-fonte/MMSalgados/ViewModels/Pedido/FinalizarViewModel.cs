@@ -15,7 +15,7 @@ namespace MMSalgados.WebUI.ViewModels.Pedido
         public string Numero_Cartao { get; set; }
         public string Data_Expiracao { get; set; }
         [Required]
-        public string? TipoPagamento { get; set; }
+        public string TipoPagamento { get; set; }
 
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {

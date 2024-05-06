@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SB+NdOqotLMmf98qXMiDtZ2NMRLA55fCo7n1vTNggzwCENTKFu2rxcZCsH/4GbXCBavZHaS7t/stCJ6lr/oxmA==",
+  "dgSpecHash": "EYArdC/AsRb131maKIvrtezX6eJg9cmY4ImAjmmeoyByRfxwKmlzlN1vXrevXyAu4lxTWU3G2cPp5/kB13znfQ==",
   "success": true,
-  "projectFilePath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\MMSalgados.Utils.csproj",
+  "projectFilePath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\MMSalgados.Utils.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\agent\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\agent\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -44,7 +44,7 @@
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Azure.Identity' 1.6.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-5mfx-4wcx-rv27",
+      "message": "O pacote 'Azure.Identity' 1.6.0 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-5mfx-4wcx-rv27",
       "libraryId": "Azure.Identity",
       "targetGraphs": [
         "net5.0"
@@ -54,7 +54,7 @@
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Azure.Identity' 1.6.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
+      "message": "O pacote 'Azure.Identity' 1.6.0 tem uma moderado vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
       "libraryId": "Azure.Identity",
       "targetGraphs": [
         "net5.0"

@@ -1542,11 +1542,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\MMSalgados.Utils.csproj",
+      "projectUniqueName": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\MMSalgados.Utils.csproj",
       "projectName": "MMSalgados.Utils",
-      "projectPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\MMSalgados.Utils.csproj",
+      "projectPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\MMSalgados.Utils.csproj",
       "packagesPath": "C:\\Users\\agent\\.nuget\\packages\\",
-      "outputPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\obj\\",
+      "outputPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\agent\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1563,8 +1563,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj": {
-              "projectPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj"
+            "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj": {
+              "projectPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj"
             }
           }
         }
@@ -1626,7 +1626,7 @@
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Azure.Identity' 1.6.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-5mfx-4wcx-rv27",
+      "message": "O pacote 'Azure.Identity' 1.6.0 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-5mfx-4wcx-rv27",
       "libraryId": "Azure.Identity",
       "targetGraphs": [
         "net5.0"
@@ -1636,7 +1636,7 @@
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Azure.Identity' 1.6.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
+      "message": "O pacote 'Azure.Identity' 1.6.0 tem uma moderado vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
       "libraryId": "Azure.Identity",
       "targetGraphs": [
         "net5.0"

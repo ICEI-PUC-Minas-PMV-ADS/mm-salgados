@@ -7704,11 +7704,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados\\MMSalgados.WebUI.csproj",
+      "projectUniqueName": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados\\MMSalgados.WebUI.csproj",
       "projectName": "MMSalgados.WebUI",
-      "projectPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados\\MMSalgados.WebUI.csproj",
+      "projectPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados\\MMSalgados.WebUI.csproj",
       "packagesPath": "C:\\Users\\agent\\.nuget\\packages\\",
-      "outputPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados\\obj\\",
+      "outputPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\agent\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7725,14 +7725,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj": {
-              "projectPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj"
+            "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj": {
+              "projectPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj"
             },
-            "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.IoC\\MMSalgados.Infra.IoC.csproj": {
-              "projectPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.IoC\\MMSalgados.Infra.IoC.csproj"
+            "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.IoC\\MMSalgados.Infra.IoC.csproj": {
+              "projectPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.IoC\\MMSalgados.Infra.IoC.csproj"
             },
-            "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\MMSalgados.Utils.csproj": {
-              "projectPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\MMSalgados.Utils.csproj"
+            "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\MMSalgados.Utils.csproj": {
+              "projectPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\MMSalgados.Utils.csproj"
             }
           }
         }
@@ -7831,7 +7831,7 @@
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Azure.Identity' 1.10.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
+      "message": "O pacote 'Azure.Identity' 1.10.2 tem uma moderado vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
       "libraryId": "Azure.Identity",
       "targetGraphs": [
         "net5.0"

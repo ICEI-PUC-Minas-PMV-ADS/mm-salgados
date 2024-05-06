@@ -14,8 +14,8 @@ namespace MMSalgados.WebUI.ViewModels.Carrinho
         [Required]
         public int? Numero_Cartao { get; set; }
         [Required]
-        public string? Data_Expiracao { get; set; }
+        public string Data_Expiracao { get; set; }
         [Required]
-        public string? TipoPagamento { get; set; }
+        public string TipoPagamento { get; set; }
     }
 }

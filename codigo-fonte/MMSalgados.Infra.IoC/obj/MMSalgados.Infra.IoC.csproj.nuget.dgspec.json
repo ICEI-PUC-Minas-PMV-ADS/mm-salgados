@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.IoC\\MMSalgados.Infra.IoC.csproj": {}
+    "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.IoC\\MMSalgados.Infra.IoC.csproj": {}
   },
   "projects": {
-    "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj": {
+    "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj",
+        "projectUniqueName": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj",
         "projectName": "MMSalgados.Domain",
-        "projectPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj",
+        "projectPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj",
         "packagesPath": "C:\\Users\\agent\\.nuget\\packages\\",
-        "outputPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\obj\\",
+        "outputPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\agent\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,14 +70,14 @@
         }
       }
     },
-    "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.Data\\MMSalgados.Infra.Data.csproj": {
+    "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.Data\\MMSalgados.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.Data\\MMSalgados.Infra.Data.csproj",
+        "projectUniqueName": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.Data\\MMSalgados.Infra.Data.csproj",
         "projectName": "MMSalgados.Infra.Data",
-        "projectPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.Data\\MMSalgados.Infra.Data.csproj",
+        "projectPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.Data\\MMSalgados.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\agent\\.nuget\\packages\\",
-        "outputPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.Data\\obj\\",
+        "outputPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\agent\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,8 +94,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj": {
-                "projectPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj"
+              "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj": {
+                "projectPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj"
               }
             }
           }
@@ -158,14 +158,14 @@
         }
       }
     },
-    "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.IoC\\MMSalgados.Infra.IoC.csproj": {
+    "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.IoC\\MMSalgados.Infra.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.IoC\\MMSalgados.Infra.IoC.csproj",
+        "projectUniqueName": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.IoC\\MMSalgados.Infra.IoC.csproj",
         "projectName": "MMSalgados.Infra.IoC",
-        "projectPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.IoC\\MMSalgados.Infra.IoC.csproj",
+        "projectPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.IoC\\MMSalgados.Infra.IoC.csproj",
         "packagesPath": "C:\\Users\\agent\\.nuget\\packages\\",
-        "outputPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.IoC\\obj\\",
+        "outputPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\agent\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -182,14 +182,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj": {
-                "projectPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj"
+              "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj": {
+                "projectPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj"
               },
-              "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.Data\\MMSalgados.Infra.Data.csproj": {
-                "projectPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.Data\\MMSalgados.Infra.Data.csproj"
+              "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.Data\\MMSalgados.Infra.Data.csproj": {
+                "projectPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.Data\\MMSalgados.Infra.Data.csproj"
               },
-              "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\MMSalgados.Utils.csproj": {
-                "projectPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\MMSalgados.Utils.csproj"
+              "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\MMSalgados.Utils.csproj": {
+                "projectPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\MMSalgados.Utils.csproj"
               }
             }
           }
@@ -258,14 +258,14 @@
         }
       }
     },
-    "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\MMSalgados.Utils.csproj": {
+    "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\MMSalgados.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\MMSalgados.Utils.csproj",
+        "projectUniqueName": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\MMSalgados.Utils.csproj",
         "projectName": "MMSalgados.Utils",
-        "projectPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\MMSalgados.Utils.csproj",
+        "projectPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\MMSalgados.Utils.csproj",
         "packagesPath": "C:\\Users\\agent\\.nuget\\packages\\",
-        "outputPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\obj\\",
+        "outputPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Utils\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\agent\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -282,8 +282,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj": {
-                "projectPath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj"
+              "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj": {
+                "projectPath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj"
               }
             }
           }

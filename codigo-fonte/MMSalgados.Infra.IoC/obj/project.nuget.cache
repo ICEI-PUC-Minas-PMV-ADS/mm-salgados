@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MG4H2ngzXbrGn2NKhUpQtZcorQNohb/M87r+2LHCiX5arMmCv3tHmN2RVrQ46QI8XLbzKsncvJBBEjr9W98SHQ==",
+  "dgSpecHash": "KqLNeic6n+Q7Q2VxIwOTGyKdaJwhl49bVC/jTAMrTXP8sADkON4dq+uH1DSbBjjPXfQFZU+QKpYM3t3ZCcmgBw==",
   "success": true,
-  "projectFilePath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.IoC\\MMSalgados.Infra.IoC.csproj",
+  "projectFilePath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.IoC\\MMSalgados.Infra.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\agent\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\agent\\.nuget\\packages\\azure.extensions.aspnetcore.dataprotection.blobs\\1.2.2\\azure.extensions.aspnetcore.dataprotection.blobs.1.2.2.nupkg.sha512",
@@ -138,7 +138,7 @@
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Azure.Identity' 1.6.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-5mfx-4wcx-rv27",
+      "message": "O pacote 'Azure.Identity' 1.6.0 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-5mfx-4wcx-rv27",
       "libraryId": "Azure.Identity",
       "targetGraphs": [
         "net5.0"
@@ -148,7 +148,7 @@
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Azure.Identity' 1.6.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
+      "message": "O pacote 'Azure.Identity' 1.6.0 tem uma moderado vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
       "libraryId": "Azure.Identity",
       "targetGraphs": [
         "net5.0"

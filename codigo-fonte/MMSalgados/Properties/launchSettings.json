@@ -9,6 +9,7 @@
     },
     "OfertaFone": {
       "commandName": "Project",
+      "workingDirectory": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados",
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
@@ -16,6 +17,17 @@
       },
       "dotnetRunMessages": "true",
       "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "launchBrowser": true,
+      "launchUrl": "https://localhost:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "https://localhost:5001;http://localhost:5000",
+        "DataContextConnection": "Host=localhost;Port=15432;Database=mmsalgados;Username=postgres;Password=postgres@2022;"
+      },
+      "distributionName": ""
     }
   },
   "iisSettings": {

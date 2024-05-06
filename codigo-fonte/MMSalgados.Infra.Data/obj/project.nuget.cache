@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0SABhI4BF3nB8WCuPo8/NwsJZDKSNnLk097JC31Vrh2RUIYrD3YJcAryqAt8Y1NqbKvDCsRnJUUqprFGb/dZEQ==",
+  "dgSpecHash": "uW/Ph90z7TP06uIYXhwAuYRZ0+vs9upd3reGcK9he1InPCpRRXwQOk32Tl5FdaFZ3+72n5YBmgUf/E84CYie9w==",
   "success": true,
-  "projectFilePath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.Data\\MMSalgados.Infra.Data.csproj",
+  "projectFilePath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Infra.Data\\MMSalgados.Infra.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\agent\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\agent\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.8\\microsoft.aspnetcore.cryptography.internal.6.0.8.nupkg.sha512",

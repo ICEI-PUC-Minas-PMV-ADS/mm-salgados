@@ -62,7 +62,7 @@ namespace MMSalgados.WebUI.Controllers
             var entity = await _produtoRepository.Table.Where(produto =>
                 produto.UsuarioId == HttpContext.Session.Get<int>("UserId") &&
                     (string.IsNullOrEmpty(indexViewModel.Modelo) || EF.Functions.Like(produto.Modelo, $"%{indexViewModel.Modelo}%")) &&
-                    (string.IsNullOrEmpty(indexViewModel.Marca) || EF.Functions.Like(produto.Marca, $"%{indexViewModel.Marca}%"))
+                    (string.IsNullOrEmpty(indexViewModel.Tipo) || EF.Functions.Like(produto.Tipo, $"%{indexViewModel.Tipo}%"))
                 ).ToListAsync();
 
             var model = new IndexViewModel()
@@ -150,8 +150,7 @@ namespace MMSalgados.WebUI.Controllers
 
                     entity.Preco = editViewModel.Preco.Value;
                     entity.Descricao = editViewModel.Descricao;
-                    entity.Modelo = editViewModel.Modelo;
-                    entity.Marca = editViewModel.Marca;
+                    entity.Tipo = editViewModel.Tipo;
                     entity.Image = UrlImg ?? entity.Image;
 
                     await _produtoRepository.Update(entity);

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MMSalgados.Domain
-build_property.ProjectDir = d:\Git\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\codigo-fonte\MMSalgados.Domain\
+build_property.ProjectDir = D:\Git\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\codigo-fonte\MMSalgados.Domain\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

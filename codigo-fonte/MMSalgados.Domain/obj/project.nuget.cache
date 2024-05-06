@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ABI1VX/xd6S4p2/0lSDR3uIcCzFuJWs0o0UtYeuT92PDELA3g9pdHvSAuR2QExCFl+RwFZwXIycs717FzT+DRA==",
+  "dgSpecHash": "YNf0FOyTkqavP3j1NFVpoARS9iS6vhWMMTvjep60lE2vUiWT0Vx0DTwYfXVjRY1hHhizj/LDYdZJKWpsyYc21A==",
   "success": true,
-  "projectFilePath": "d:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj",
+  "projectFilePath": "D:\\Git\\pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados\\codigo-fonte\\MMSalgados.Domain\\MMSalgados.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\agent\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.8\\microsoft.aspnetcore.cryptography.internal.6.0.8.nupkg.sha512",
     "C:\\Users\\agent\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.8\\microsoft.aspnetcore.cryptography.keyderivation.6.0.8.nupkg.sha512",

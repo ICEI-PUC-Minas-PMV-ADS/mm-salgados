@@ -8,7 +8,7 @@ namespace MMSalgados.WebUI.ViewModels.Produto
 {
     public class IndexTableViewModel : BaseViewModel
     {
-        public string Marca { get; set; }
+        public string Tipo { get; set; }
         public string Modelo { get; set; }
         public bool Ativo { get; set; }
         public string Image { get; set; }
