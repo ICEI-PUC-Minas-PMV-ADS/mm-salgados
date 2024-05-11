@@ -154,9 +154,9 @@ Video da aplicação de cadastro e login em funcionamento.
 ### Planejamento de Testes de Software - MM Salgados
 Foi criado a tabela de Planejamento de Testes de Software para organização dos testes da aplicação.
 
-![RF-001.3](./img/LANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0001.jpg)
-![RF-001.3](./img/LANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0002.jpg)
-![RF-001.3](./img/LANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0003.jpg)
+![RF-001.3](./img/PLANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0001.jpg)
+![RF-001.3](./img/PLANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0002.jpg)
+![RF-001.3](./img/PLANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0003.jpg)
 
 ### RF-001.3
 Vídeo do teste do Requisito Funcional RF-001.3 - Verificar se o sistema impede a criação de contas duplicadas com o mesmo e-mail. 
