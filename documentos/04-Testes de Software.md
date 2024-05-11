@@ -154,12 +154,9 @@ Video da aplicação de cadastro e login em funcionamento.
 ### Planejamento de Testes de Software - MM Salgados
 Foi criado a tabela de Planejamento de Testes de Software para organização dos testes da aplicação.
 
-
-documentos/img/PLANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0001.jpg
-
-![RF-001.3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/PLANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0001.jpg)
-![RF-001.3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/PLANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0002.jpg)
-![RF-001.3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/PLANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0003.jpg)
+![planejamento de teste de software](https://github.com/ICEI-PUC-Minas-PMV-ADS/mm-salgados/blob/desenvolvimento/documentos/img/PLANEJAMENTO%20DE%20TESTES%20DE%20SOFTWARE%20-%20MM%20SALGADOS%20(3)_page-0001.jpg)
+![planejamento de teste de software](https://github.com/ICEI-PUC-Minas-PMV-ADS/mm-salgados/blob/desenvolvimento/documentos/img/PLANEJAMENTO%20DE%20TESTES%20DE%20SOFTWARE%20-%20MM%20SALGADOS%20(3)_page-0002.jpg)
+![planejamento de teste de software](https://github.com/ICEI-PUC-Minas-PMV-ADS/mm-salgados/blob/desenvolvimento/documentos/img/PLANEJAMENTO%20DE%20TESTES%20DE%20SOFTWARE%20-%20MM%20SALGADOS%20(3)_page-0003.jpg)
 
 ### RF-001.3
 Vídeo do teste do Requisito Funcional RF-001.3 - Verificar se o sistema impede a criação de contas duplicadas com o mesmo e-mail. 
@@ -167,6 +164,3 @@ Vídeo do teste do Requisito Funcional RF-001.3 - Verificar se o sistema impede 
 [![Video](https://img.youtube.com/vi/9csMAZb7p50/0.jpg)]([https://www.youtube.com/watch?v=9csMAZb7p50](https://sgapucminasbr-my.sharepoint.com/personal/66002_sga_pucminas_br/_layouts/15/stream.aspx?id=%2Fpersonal%2F66002%5Fsga%5Fpucminas%5Fbr%2FDocuments%2FIndex%20%2D%20MM%20Salgados%20%2D%20Google%20Chrome%202024%2D05%2D10%2015%2D41%2D32%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee68cbbf8%2D1f7a%2D47a7%2Db888%2Daa04ba1ce7b1))
 
 ### Resultado: O teste "RF-001.3 - Verificar se o sistema impede a criação de contas duplicadas com o mesmo e-mail" foi executado com sucesso. 
-
-
-
