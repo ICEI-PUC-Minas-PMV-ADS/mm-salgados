@@ -152,9 +152,7 @@ Video da aplicação de cadastro e login em funcionamento.
 Foi criado a tabela de Planejamento de Testes de Software para organização dos testes da aplicação.
 
 
-documentos/img/PLANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0001.jpg
-
-![RF-001.3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/PLANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0001.jpg)
+![RF-001.3]([https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/PLANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0001.jpg](https://github.com/ICEI-PUC-Minas-PMV-ADS/mm-salgados/blob/desenvolvimento/documentos/img/PLANEJAMENTO%20DE%20TESTES%20DE%20SOFTWARE%20-%20MM%20SALGADOS%20(3)_page-0001.jpg))
 ![RF-001.3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/PLANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0002.jpg)
 ![RF-001.3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/PLANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0003.jpg)
 
