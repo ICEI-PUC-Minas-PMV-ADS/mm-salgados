@@ -151,11 +151,8 @@ Video da aplicação de cadastro e login em funcionamento.
 ### Planejamento de Testes de Software - MM Salgados
 Foi criado a tabela de Planejamento de Testes de Software para organização dos testes da aplicação.
 
-
 ![planejamento de teste de software](https://github.com/ICEI-PUC-Minas-PMV-ADS/mm-salgados/blob/desenvolvimento/documentos/img/PLANEJAMENTO%20DE%20TESTES%20DE%20SOFTWARE%20-%20MM%20SALGADOS%20(3)_page-0001.jpg)
-
 ![planejamento de teste de software](https://github.com/ICEI-PUC-Minas-PMV-ADS/mm-salgados/blob/desenvolvimento/documentos/img/PLANEJAMENTO%20DE%20TESTES%20DE%20SOFTWARE%20-%20MM%20SALGADOS%20(3)_page-0002.jpg)
-
 ![planejamento de teste de software](https://github.com/ICEI-PUC-Minas-PMV-ADS/mm-salgados/blob/desenvolvimento/documentos/img/PLANEJAMENTO%20DE%20TESTES%20DE%20SOFTWARE%20-%20MM%20SALGADOS%20(3)_page-0003.jpg)
 
 ### RF-001.3
