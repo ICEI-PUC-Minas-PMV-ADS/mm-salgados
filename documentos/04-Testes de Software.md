@@ -6,6 +6,8 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 
 **Objetivo dos testes:** Verificar se o sistema atende aos requisitos funcionais, requisitos não funcionais e respeita as restrições definidas para o projeto.
 
+
+
 ## Testes de Requisitos Funcionais:
 
 #### RF-001:
@@ -147,7 +149,7 @@ Falha no lançamento da aplicação.
 Video da aplicação de cadastro e login em funcionamento.
 [![Video](https://img.youtube.com/vi/9csMAZb7p50/0.jpg)](https://www.youtube.com/watch?v=9csMAZb7p50)
 
-Video da aplicação de cadastro e login em funcionamento.
+
 Vídeo do teste do Requisito Funcional RF-001.3 - Verificar se o sistema impede a criação de contas duplicadas com o mesmo e-mail. 
 
 [![Video](https://img.youtube.com/vi/9csMAZb7p50/0.jpg)]([https://www.youtube.com/watch?v=9csMAZb7p50](https://sgapucminasbr-my.sharepoint.com/personal/66002_sga_pucminas_br/_layouts/15/stream.aspx?id=%2Fpersonal%2F66002%5Fsga%5Fpucminas%5Fbr%2FDocuments%2FIndex%20%2D%20MM%20Salgados%20%2D%20Google%20Chrome%202024%2D05%2D10%2015%2D41%2D32%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ee68cbbf8%2D1f7a%2D47a7%2Db888%2Daa04ba1ce7b1))
