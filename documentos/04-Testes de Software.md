@@ -152,9 +152,11 @@ Video da aplicação de cadastro e login em funcionamento.
 Foi criado a tabela de Planejamento de Testes de Software para organização dos testes da aplicação.
 
 
-![RF-001.3]([https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/PLANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0001.jpg](https://github.com/ICEI-PUC-Minas-PMV-ADS/mm-salgados/blob/desenvolvimento/documentos/img/PLANEJAMENTO%20DE%20TESTES%20DE%20SOFTWARE%20-%20MM%20SALGADOS%20(3)_page-0001.jpg)
-![RF-001.3]([https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/PLANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0002.jpg](https://github.com/ICEI-PUC-Minas-PMV-ADS/mm-salgados/blob/desenvolvimento/documentos/img/PLANEJAMENTO%20DE%20TESTES%20DE%20SOFTWARE%20-%20MM%20SALGADOS%20(3)_page-0002.jpg)
-![RF-001.3]([https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/PLANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0003.jpg)](https://github.com/ICEI-PUC-Minas-PMV-ADS/mm-salgados/blob/desenvolvimento/documentos/img/PLANEJAMENTO%20DE%20TESTES%20DE%20SOFTWARE%20-%20MM%20SALGADOS%20(3)_page-0003.jpg)
+![planejamento de teste de software](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/PLANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0001.jpg](https://github.com/ICEI-PUC-Minas-PMV-ADS/mm-salgados/blob/desenvolvimento/documentos/img/PLANEJAMENTO%20DE%20TESTES%20DE%20SOFTWARE%20-%20MM%20SALGADOS%20(3)_page-0001.jpg)
+
+![planejamento de teste de software](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/PLANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0002.jpg](https://github.com/ICEI-PUC-Minas-PMV-ADS/mm-salgados/blob/desenvolvimento/documentos/img/PLANEJAMENTO%20DE%20TESTES%20DE%20SOFTWARE%20-%20MM%20SALGADOS%20(3)_page-0002.jpg)
+
+![planejamento de teste de software](https:github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-empext-t5-MM-Salgados/blob/main/documentos/img/PLANEJAMENTO DE TESTES DE SOFTWARE - MM SALGADOS (3)_page-0003.jpg)](https://github.com/ICEI-PUC-Minas-PMV-ADS/mm-salgados/blob/desenvolvimento/documentos/img/PLANEJAMENTO%20DE%20TESTES%20DE%20SOFTWARE%20-%20MM%20SALGADOS%20(3)_page-0003.jpg)
 
 ### RF-001.3
 Vídeo do teste do Requisito Funcional RF-001.3 - Verificar se o sistema impede a criação de contas duplicadas com o mesmo e-mail. 
