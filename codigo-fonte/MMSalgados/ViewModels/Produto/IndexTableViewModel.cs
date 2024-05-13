@@ -12,5 +12,6 @@ namespace MMSalgados.WebUI.ViewModels.Produto
         public string Modelo { get; set; }
         public bool Ativo { get; set; }
         public string Image { get; set; }
+        public int Quantidade { get; set; }
     }
 }
