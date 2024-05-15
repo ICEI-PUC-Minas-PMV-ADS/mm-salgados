@@ -35,24 +35,32 @@ namespace MMSalgados.WebUI.Controllers
         [HttpGet, Authorize, SessionExpire]
         public async Task<IActionResult> Index()
         {
-            var pedidos = await _pedidoRepository.Table
+            var isAdmin = User.IsInRole("ADMIN");
+
+            IQueryable<Pedido> query = _pedidoRepository.Table
                 .Include(p => p.ItemPedido)
                 .ThenInclude(p => p.Produto)
-                .Where(pedido => pedido.Status == TipoPedidoStatus._FINALIZADO && pedido.UsuarioId == HttpContext.Session.Get<int>("UserId"))
-                .ToListAsync();
+                .Where(pedido => pedido.Status == TipoPedidoStatus._FINALIZADO);
+
+            if (!isAdmin)
+            {
+                query = query.Where(pedido => pedido.UsuarioId == HttpContext.Session.Get<int>("UserId"));
+            }
+
+            var pedidos = await query.ToListAsync();
 
             pedidos ??= new List<Pedido>();
 
             var model = pedidos.Select(pedido =>
-                  new IndexViewModel
-                  {
-                      Id = pedido.Id,
-                      Total = pedido.Total,
-                      QuantidadeItens = pedido.QuantidadeItens,
-                      Produtos = pedido.ItemPedido != null && pedido.ItemPedido.Any() ?
-                      pedido.ItemPedido.Select(itempedido => _imapper.Map<ViewModels.Vitrine.DetailsViewModel>(itempedido.Produto)).ToList() :
-                      new List<ViewModels.Vitrine.DetailsViewModel>()
-                  }
+                new IndexViewModel
+                {
+                    Id = pedido.Id,
+                    Total = pedido.Total,
+                    QuantidadeItens = pedido.QuantidadeItens,
+                    Produtos = pedido.ItemPedido != null && pedido.ItemPedido.Any() ?
+                    pedido.ItemPedido.Select(itempedido => _imapper.Map<ViewModels.Vitrine.DetailsViewModel>(itempedido.Produto)).ToList() :
+                    new List<ViewModels.Vitrine.DetailsViewModel>()
+                }
             ).ToList();
 
             return View(model);
