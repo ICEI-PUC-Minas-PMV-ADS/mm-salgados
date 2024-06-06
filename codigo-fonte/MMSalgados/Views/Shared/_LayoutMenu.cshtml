@@ -16,12 +16,15 @@
     </div>
     <div class="menu-inner-shadow"></div>
     <ul class="menu-inner py-1">
-        <li class="menu-item">
-            <a asp-controller="home" asp-action="index" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                <div>Home</div>
-            </a>
-        </li>
+        @if (@User.IsInRole(Roles.ADMIN))
+        {
+            <li class="menu-item">
+                <a asp-controller="home" asp-action="index" class="menu-link">
+                    <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                    <div>Home</div>
+                </a>
+            </li>
+        }
         <li class="menu-item">
             <a asp-controller="account" asp-action="editprofile" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-user-pin"></i>

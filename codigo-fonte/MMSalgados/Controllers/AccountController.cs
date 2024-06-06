@@ -76,10 +76,17 @@ namespace MMSalgados.WebUI.Controllers
                        lockoutOnFailure: false);
 
                     if (result.Succeeded)
-                    {
+                    {   
+                        if (user.PerfilUsuarioId != (int?)TipoPerfil.ADMIN)
+                        {
+                            return !string.IsNullOrEmpty(loginViewModel.ReturnUrl) ?
+                                Redirect(loginViewModel.ReturnUrl) :
+                                RedirectToAction("EditProfile", "Account");
+                        }
+
                         return !string.IsNullOrEmpty(loginViewModel.ReturnUrl) ?
-                            Redirect(loginViewModel.ReturnUrl) :
-                            RedirectToAction("Index", "Home");
+                                Redirect(loginViewModel.ReturnUrl) :
+                                RedirectToAction("Index", "Home");
                     }
 
                 }

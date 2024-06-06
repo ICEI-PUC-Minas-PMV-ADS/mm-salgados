@@ -11,7 +11,7 @@
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Production",
+        "ASPNETCORE_ENVIRONMENT": "Development",
         "DataContextConnection": "Host=localhost;Port=15432;Database=mmsalgados;Username=postgres;Password=postgres@2022"
       },
       "dotnetRunMessages": "true",
