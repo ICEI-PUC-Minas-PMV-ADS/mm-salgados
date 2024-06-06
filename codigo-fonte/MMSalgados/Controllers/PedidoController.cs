@@ -81,7 +81,7 @@ namespace MMSalgados.WebUI.Controllers
 
                     pedido.Status = TipoPedidoStatus._FINALIZADO;
 
-                    foreach (var itemPedido in pedido?.ItemPedido ?? Enumerable.Empty<ItemPedido>())
+                   /* foreach (var itemPedido in pedido?.ItemPedido ?? Enumerable.Empty<ItemPedido>())
                     {
                         // Seta o status do produto para inativo para que nao seja visualizado na vitrine
                         var produto = await _produtoRepository.FindById(itemPedido.ProdutoId);
@@ -89,7 +89,7 @@ namespace MMSalgados.WebUI.Controllers
 
                         await _produtoRepository.Update(produto);
                         await _produtoRepository.CommitAsync();
-                    }
+                    }*/
 
                     await _pedidoRepository.Update(pedido);
                     await _pedidoRepository.CommitAsync();
