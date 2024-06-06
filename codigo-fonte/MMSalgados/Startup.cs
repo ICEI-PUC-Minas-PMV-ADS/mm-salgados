@@ -13,7 +13,6 @@ namespace MMSalgados
 {
     public class Startup
     {
-       
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -36,7 +35,7 @@ namespace MMSalgados
 
             services.ConfigureApplicationCookie(options =>
             {
-                options.AccessDeniedPath = "/Usuario/AccessDenied";
+                options.AccessDeniedPath = "/Home/AccessDenied"; // Definindo o caminho de acesso negado
                 options.Cookie.Name = "MM_SALGADOS";
                 options.Cookie.HttpOnly = true;
                 options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
@@ -64,20 +63,18 @@ namespace MMSalgados
             else
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
 
             app.UseAuthentication();
-
             app.UseAuthorization();
 
             app.UseSession();
-
             app.UseRequestLocalization();
 
             app.UseEndpoints(endpoints =>
@@ -85,6 +82,10 @@ namespace MMSalgados
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Vitrine}/{action=Index}/{id?}");
+                endpoints.MapControllerRoute(
+                    name: "accessDenied",
+                    pattern: "/Home/AccessDenied",
+                    defaults: new { controller = "Home", action = "AccessDenied" }); // Rota para acesso negado
             });
         }
     }

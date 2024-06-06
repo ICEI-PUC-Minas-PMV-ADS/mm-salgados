@@ -9,6 +9,7 @@ using System.Linq;
 using MMSalgados.Utils.Extensions;
 using Microsoft.EntityFrameworkCore;
 using MMSalgados.WebUI.Tipo;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MMSalgados.Controllers
 {
@@ -25,6 +26,7 @@ namespace MMSalgados.Controllers
             this._pedidoRepository = pedidoRepository;
         }
 
+        [Authorize(Roles = "ADMIN")]
         public async Task<IActionResult> Index()
         {
             var entity = await _produtoRepository.Table.Where(produto =>
@@ -46,6 +48,11 @@ namespace MMSalgados.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        public IActionResult AccessDenied()
+        {
+            return RedirectToAction("Index", "Vitrine");
         }
     }
 }
