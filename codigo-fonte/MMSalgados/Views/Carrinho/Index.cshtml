@@ -560,7 +560,7 @@
                                     Ao enviar o seu pedido, uma janela deverá abrir com o seu WhatsApp, para que você nos
                                     envie uma mensagem com o seu pedido
                                 </p>
-                                <button class="btn btn-success mt-3 px-5" type="submit">
+                                <button id="whatsapp" class="btn btn-success mt-3 px-5" type="submit">
                                     <span class="text"> Envie seu pedido </span>
                                 </button>
                             </div>
@@ -648,5 +648,46 @@ else
                 return value.replace('R$ ', '');
             }
         });
+    });
+</script>
+
+<script>
+    document.getElementById('whatsapp').addEventListener('click', function () {
+        var total = "@this.FormatMoney(@Model.Total)";
+        var formaPagamento = document.querySelector('input[name="TipoPagamento"]:checked').value;
+        var troco = document.getElementById('change').value;
+        var semTroco = document.getElementById('no-change').checked ? "Sim" : "Não";
+        var observacoes = document.getElementById('obsConfirmacao').value;
+        var rua = document.getElementById('street').value;
+        var numeroCasa = document.getElementById('number').value;
+        var cidade = document.getElementById('city').value;
+        var estado = document.getElementById('state').value;
+        var cep = document.getElementById('zipcode').value;
+
+        // Constroi a mensagem
+        var mensagem = `Olá, gostaria de fazer um pedido:\n\n`;
+        mensagem += `Total: ${total}\n`;
+        mensagem += `Forma de Pagamento: ${formaPagamento}\n`;
+        if (formaPagamento == "dinheiro" && semTroco == "Sim"){
+            //mensagem += `Troco para: ${troco}\n`;
+            mensagem += `Sem troco.`;
+        } else if (formaPagamento == "dinheiro" && semTroco == "Não") {
+            mensagem += `Troco para: ${troco}\n`;
+        }
+        mensagem += `Observações: ${observacoes}\n`;
+        mensagem += `Endereço: Rua ${rua}, N° ${numeroCasa}, ${cidade} - ${estado}, ${cep}`;
+
+
+        // Passa a mensagem para a URL
+        var mensagemEncoded = encodeURIComponent(mensagem);
+
+        // Número do WhatsApp do vendedor
+        var numeroVendedor = "553194781992";
+
+        // URL para abrir o WhatsApp
+        var url = `https://api.whatsapp.com/send?phone=${numeroVendedor}&text=${mensagemEncoded}`;
+
+        // Abre o WhatsApp
+        window.open(url, '_blank');
     });
 </script>
