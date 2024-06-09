@@ -406,9 +406,6 @@
                                     <th class="ps-0 pt-0 p-0" style="font-weight: 400;">
                                         <a asp-controller="vitrine" asp-action="details" asp-route-id="@produto.Id">
                                             @produto.Marca @produto.Modelo x 1
-                                            <div class="fw-normal">
-                                                (@produto.RAM, @produto.Camera)
-                                            </div>
                                         </a>
                                         <form asp-controller="Carrinho" asp-action="Deletar" asp-route-id="@produto.Id">
                                             <div class="fs--2 fs-md--1">
