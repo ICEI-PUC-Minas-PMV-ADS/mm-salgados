@@ -1,0 +1,20 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "previewLimit": 50,
+            "server": "dpg-cph3l3gl6cac73fjd710-a.ohio-postgres.render.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "dpg-cph3l3gl6cac73fjd710-a.ohio-postgres.render.com",
+            "group": "dpg-cph3l3gl6cac73fjd710-a.ohio-postgres.render.com",
+            "database": "mmsalgados",
+            "username": "mmsalgados_user",
+            "password": "C3UP6m5u0oeT9zDIPkDyURE4KcI8hyfw"
+        }
+    ]
+}
