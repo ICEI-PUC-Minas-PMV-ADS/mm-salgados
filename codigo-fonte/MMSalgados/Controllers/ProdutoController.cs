@@ -152,7 +152,8 @@ namespace MMSalgados.WebUI.Controllers
                     entity.Descricao = editViewModel.Descricao;
                     entity.Modelo = editViewModel.Modelo;
                     entity.Marca = editViewModel.Marca;
-                    entity.Image = UrlImg ?? entity.Image;
+                    entity.Image = editViewModel.Image;
+                    // entity.Image = UrlImg ?? entity.Image;
 
                     await _produtoRepository.Update(entity);
                     await _produtoRepository.CommitAsync();
