@@ -17,6 +17,7 @@ namespace MMSalgados.WebUI.ViewModels.Base
         [Required]
         public int Quantidade { get; set; }
         public string Marca { get; set; }
+        public string Image { get; set; }
         public string Processador { get; set; }
         public string Memoria { get; set; }
         public string Camera { get; set; }

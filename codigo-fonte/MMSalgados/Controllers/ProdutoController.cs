@@ -89,11 +89,11 @@ namespace MMSalgados.WebUI.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    string UrlImg = await Request.UploadFile(fileStorage: _fileStorage, fileDefault: TipoImagensPadrao._PRODUTO);
+                    //string UrlImg = await Request.UploadFile(fileStorage: _fileStorage, fileDefault: TipoImagensPadrao._PRODUTO);
 
                     var produtoEntity = _imapper.Map<ProdutoEntity>(createViewModel);
                     produtoEntity.Ativo = true;
-                    produtoEntity.Image = UrlImg;
+                    //produtoEntity.Image = UrlImg;
                     produtoEntity.UsuarioId = HttpContext.Session.Get<int>("UserId");
 
                     await _produtoRepository.Insert(produtoEntity);
