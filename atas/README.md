@@ -6,3 +6,5 @@
 [Ata_Reunião_Etapa_3.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/mm-salgados/files/15214367/ADS.-.Ata.de.Reuniao.3.-.MM.Salgados.pdf)
 
 [Ata_Reunião_Etapa_4.pdf](https://github.com/user-attachments/files/15753581/Ata_Reuniao_Etapa_4.pdf)
+
+[Ata_Reunião_Etapa_5.pdf](https://github.com/user-attachments/files/15930499/Ata_Reuniao_Etapa_5.pdf)
