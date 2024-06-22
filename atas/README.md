@@ -8,3 +8,5 @@
 [Ata_Reunião_Etapa_4.pdf](https://github.com/user-attachments/files/15753581/Ata_Reuniao_Etapa_4.pdf)
 
 [Ata_Reunião_Etapa_5.pdf](https://github.com/user-attachments/files/15930499/Ata_Reuniao_Etapa_5.pdf)
+
+[Ata_Reunião_Entrega Final - signed.pdf](https://github.com/user-attachments/files/15934677/Ata_Reuniao_Entrega.Final.-.signed.pdf)
